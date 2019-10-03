@@ -1,6 +1,10 @@
-# Introducing Mathscapes Research — A Vision for the technology of the Future 
-
-Gaurav Singh / June 14, 2016 / Posted in General
+---
+layout      : post
+title       : Introducing Mathscapes Research — A Vision for the technology of the Future 
+author      : Gaurav Singh
+categories  : General
+tags        : Announcement
+---
 
 Flashback → 2008. I was already in awe of prime numbers and was quick (and naive?) to assume that this is possibly the solution to information compression. Already being acquainted with computer programming, I started to write algorithms to compress information using prime numbers and gradually realized why such algorithms are not practical enough despite being theoretically valid.
 
@@ -21,7 +25,3 @@ Often the most simple looking problems are the hardest. Finding just a solution 
 Technology is constantly changing our world. It is everything that is making our work or life simpler. While that may be a good thing, we cannot not anticipate all the implications. Who should be held responsible for damage caused by this advancement? What if we could see the future? Would we change our decisions then?
 
 Technology is what we believe is the consequence of life. Like life, technology may also be inevitable, or maybe both are same? We are probably at the ascent of the exponential curve of the supermassive technology outbreak. How much exaggerating it may sound, it seems inevitable. Will we able to coexist with it? And If so, how technology should evolve optimally? What should we do now to change the future?
-
----- 
-
-© Mathscapes Research. All Rights Reserved.
