@@ -1,5 +1,5 @@
 name: Mathscapes Research
-url: mathscapes.xyz
+url: https://mathscapes.xyz
 baseurl: 
 permalink: /notes/:title/
 kramdown:
