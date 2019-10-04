@@ -8,6 +8,9 @@ layout: default
 [Learn more](about)
 
 <hr/>
+
+#### Latest at Mathscapes
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
