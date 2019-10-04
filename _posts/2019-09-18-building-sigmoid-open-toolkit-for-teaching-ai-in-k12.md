@@ -8,7 +8,7 @@ tags        : ['Teaching, K-12, AI']
 
 Abstract. This project explores the possibilities of teaching AI to schoolchildren (K-12). We are exploring its relevance in K-12 education space — including questions like if we need teaching about AI in K-12 and if it is, what are some meaningful ways to incorporate AI in the existing school curriculum. In a conscious attempt to present a neutral standpoint and accessible method, a paper-based teaching-toolkit is proposed to have open-ended participation from all children. This experimental toolkit intends to break down the complexities of AI, using concepts such as order and chaos, understanding patterns, ethics, and biases. Introducing visual/graphical mathematics could bring in clarity of understanding both mechanisms and behaviour, and a sentient acceptance of patterns and models. Given multiple interpretations of intelligence, this intervention will also enable children to define it themselves subjective to their analysis.
 
-![Initial mapping]({{ site.url }}/assets/images/sigmoid_initial-mapping.jpg)
+![Initial mapping]({{ site.baseurl }}/assets/images/sigmoid_initial-mapping.jpg)
 
 ## Situation
 With the steady development in the field of AI over the several last decades, and in particular, the recent interest in AI-driven business use cases and its penetration across the computing and technology-driven spaces[^1] it is increasingly becoming relevant for professionals in such areas to be aware and proficient in AI. 
@@ -25,19 +25,19 @@ To explore and realise a series of novel and open resources to teach AI in schoo
 - Developing simple and beginner friendly introduction to AI by scaffolding technical complexity of implementing AI.
 - Creating artefacts to provoke conversations around AI and ethics in the classrooms 
 
-![Imagining simplest form of paper perceptron]({{ site.url }}/assets/images/sigmoid_imagining-simplest-form-of-paper-perceptron.jpg)
+![Imagining simplest form of paper perceptron]({{ site.baseurl }}/assets/images/sigmoid_imagining-simplest-form-of-paper-perceptron.jpg)
 
 ## Approach
 **How might we teach children about AI through a physical toolkit?**
 The experts have learnt AI through extensive reading, programming and mathematical affinity with rigorous practice. Our target audience, children should not be overwhelmed with information the same way. To break down these vast diverging concepts into simpler, engaging interactions, we first decided to look into machine learning as a subset of AI At many points, learning in children was compared to machine learning, drawing parallels in everyday life (example: making a cheese sandwich) step by step approach to understand algorithms.
 
-![First version of the paper perceptron]({{ site.url }}/assets/images/sigmoid_first-version-of-the-paper-perceptron.jpg)
+![First version of the paper perceptron]({{ site.baseurl }}/assets/images/sigmoid_first-version-of-the-paper-perceptron.jpg)
 
 A simple input/output machine process using a paper ball as data and pipes as the network with weight fluctuation and adjustment was explored. 
 
 The lower side of the input pipe would rotate in order to set the weight. The output pipe would be adjusted according to the weight to show different outputs. The functionality of every part of a neurone is translated in this idea. A few more related forms with varying materials (magnets, slides, height) were used to show affected input ball inside the pipe as it travels.
 
-![Blackbox idea: Slides in the blackbox to construct the machine per choice]({{ site.url }}/assets/images/sigmoid_blackbox-idea.jpg)
+![Blackbox idea: Slides in the blackbox to construct the machine per choice]({{ site.baseurl }}/assets/images/sigmoid_blackbox-idea.jpg)
 
 One problem seen in this approach was the need to define every related part and function being performed.  Avoiding them would not be fair, and defining them as they go felt important. But the very fact that one process can’t fathom the definition of intelligence, same as not knowing the one universal machine learning model, started to become a cause for concern. 
 
@@ -53,15 +53,15 @@ But how do we decide if a person or thing is intelligent? And what fuels the cer
 
 We changed our approach to ideas by trying to see what a computer as a human is really doing — _decoding coded patterns_. For example, a picture of a landscape to a machine is a matrix of colored pixels. Humans on the other hand can tell you exactly what it is at a glance. A machine would have to look for patterns in color, spacing and know the pattern for this particular landscape to understand it. What if there was a way of bridging these different approaches to understanding?
 
-![The napkin idea - gave way to explore patterns with the lens of order and chaos]({{ site.url }}/assets/images/sigmoid_the-napkin-idea.jpg)
+![The napkin idea - gave way to explore patterns with the lens of order and chaos]({{ site.baseurl }}/assets/images/sigmoid_the-napkin-idea.jpg)
 
 Through this exploration, it was evident that both physically and metaphorically, layers hold importance in revealing a sense of priority to create understanding. Order meets chaos as more layers are defined to bridge the between and translate processes intuitively to children. This would also mean less hindrances of big words restricting the journey. This idea was further explored as a paper layered high-low level translation in the toolkit. 
 
-![One of the picture from visual notes show categories when we were exploring physical embodiments for learning]({{ site.url }}/assets/images/sigmoid_visual-notes-physical-embodiments-for-learning.jpg)
+![One of the picture from visual notes show categories when we were exploring physical embodiments for learning]({{ site.baseurl }}/assets/images/sigmoid_visual-notes-physical-embodiments-for-learning.jpg)
 
 At this point, we were coming across too many ideas that essentially were probing children to think beyond what is apparent. There seems to be no reason to not include an idea since every thought pattern should be valued. However, the lack of a structure could bring in more confusion than we think. I began mapping out elements from every little idea I had in order to group things into categories. While these categories may be overlapping, their presence in a level-up way could be incentivised for active participation.
 
-![]({{ site.url }}/assets/images/sigmoid_rough-notes-while-planning-the-toolkit-1_2.jpg)![Rough notes while planning the toolkit]({{ site.url }}/assets/images/sigmoid_rough-notes-while-planning-the-toolkit-2_2.jpg)
+![]({{ site.baseurl }}/assets/images/sigmoid_rough-notes-while-planning-the-toolkit-1_2.jpg)![Rough notes while planning the toolkit]({{ site.baseurl }}/assets/images/sigmoid_rough-notes-while-planning-the-toolkit-2_2.jpg)
 
 Since theme/idea of the project has been discovered, the next phase may not be about questioning the need of such AI kit in the school, but about identifying what would be the first thing that should be given to the teachers to teach their students about AI.
 
