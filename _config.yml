@@ -14,10 +14,10 @@ jekyll-archives:
   enabled: all
   layout: archive
   permalinks:
-    year    : '/notes/:year/'
-    month   : '/notes/:year/:month/'
-    day     : '/notes/:year/:month/:day/'
-    tag     : '/notes/tag/:name/'
+    year    : /notes/:year/
+    month   : /notes/:year/:month/
+    day     : /notes/:year/:month/:day/
+    tag     : /notes/tag/:name/
 
 plugins:
   - jekyll-archives
