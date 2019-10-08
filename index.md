@@ -2,7 +2,7 @@
 title: Home
 layout: default
 ---
-<img src="assets/images/logo.svg" width="200px">
+<img src="assets/images/logo.svg" width="60px">
 # Mathscapes Research is committed to advance in the field of algorithm design through mathematical research.
 
 [Learn more](about)

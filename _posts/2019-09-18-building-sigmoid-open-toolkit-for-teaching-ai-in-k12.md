@@ -6,7 +6,7 @@ categories  : Experience
 tags        : ['Teaching, K-12, AI']
 ---
 
-Abstract. This project explores the possibilities of teaching AI to schoolchildren (K-12). We are exploring its relevance in K-12 education space — including questions like if we need teaching about AI in K-12 and if it is, what are some meaningful ways to incorporate AI in the existing school curriculum. In a conscious attempt to present a neutral standpoint and accessible method, a paper-based teaching-toolkit is proposed to have open-ended participation from all children. This experimental toolkit intends to break down the complexities of AI, using concepts such as order and chaos, understanding patterns, ethics, and biases. Introducing visual/graphical mathematics could bring in clarity of understanding both mechanisms and behaviour, and a sentient acceptance of patterns and models. Given multiple interpretations of intelligence, this intervention will also enable children to define it themselves subjective to their analysis.
+**Abstract.** This project explores the possibilities of teaching AI to schoolchildren (K-12). We are exploring its relevance in K-12 education space — including questions like if we need teaching about AI in K-12 and if it is, what are some meaningful ways to incorporate AI in the existing school curriculum. In a conscious attempt to present a neutral standpoint and accessible method, a paper-based teaching-toolkit is proposed to have open-ended participation from all children. This experimental toolkit intends to break down the complexities of AI, using concepts such as order and chaos, understanding patterns, ethics, and biases. Introducing visual/graphical mathematics could bring in clarity of understanding both mechanisms and behaviour, and a sentient acceptance of patterns and models. Given multiple interpretations of intelligence, this intervention will also enable children to define it themselves subjective to their analysis.
 
 ![Initial mapping]({{ site.baseurl }}/assets/images/sigmoid_initial-mapping.jpg)
 
@@ -72,6 +72,7 @@ Artificial Intelligence as a subject offers a vast variety of themes to be an an
 ### About the Author
 Simran Singh is a Human-Centered Design student pursuing her undergraduate degree at Srishti, Bangalore. An analytical-dreamer, her work focuses on understanding the use-cases of emerging technologies and applying it in a user-friendly context. She sees value in algorithmic thinking to help understand, decode and apply at the design context.
 
+## References
 [^1]:	Michael Chui, Vishnu Kamalnath, Brian McCarthy. 2018. An executive’s guide to AI. McKinsey & Company.
 
 [^2]:	Chaurasia, S. (2018). Indian school kids lose grip on math, science as they go up. The Economic Times. Retrieved 18 September 2019, from https://economictimes.indiatimes.com/industry/services/education/indian-school-kids-lose-grip-on-math-science-as-they-go-up/articleshow/65196841.cms
