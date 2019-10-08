@@ -1,1 +1,0 @@
-bundle exec jekyll serve -wli -d docs
