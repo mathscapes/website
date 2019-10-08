@@ -1,12 +1,26 @@
 name: Mathscapes Research
 url: https://mathscapes.xyz
 baseurl: 
+
 permalink: /notes/:title/
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: 'highlight'
+
+jekyll-archives:
+  enabled: all
+  layout: archive
+  permalinks:
+    year    : '/notes/:year/'
+    month   : '/notes/:year/:month/'
+    day     : '/notes/:year/:month/:day/'
+    tag     : '/notes/tag/:name/'
+
+plugins:
+  - jekyll-archives
 
 gems:
   - jekyll-sitemap

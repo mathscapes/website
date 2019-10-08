@@ -1,0 +1,7 @@
+  <tr>
+  <td class="date" width="15%">
+    <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+  </td>
+  <td>
+  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td>
+  </tr>

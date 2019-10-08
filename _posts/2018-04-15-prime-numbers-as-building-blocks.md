@@ -2,11 +2,10 @@
 layout      : post
 title       : Prime Numbers as Building Blocks
 author      : Gaurav Singh
-categories  : Fusion
-tags        : Fiction
+tags        : PrimeNumbers
 ---
 
-_For as long as I remember, I always had a deep interest in prime numbers. And that's why -- this -- in an attempt to document its vast literature and carry out my research on this subject._
+For as long as I remember, I always had a deep interest in prime numbers. And that's why -- this -- in an attempt to document its vast literature and carry out my research on this subject.
 
 Prime Numbers are the building blocks of the numbers and perhaps the processes in the Universe, as I like to think. While it may seem simple to understand what are prime numbers, its startling to find their presence in unusual places. From the prime-numbered life span of Cicada to ensuring security on your credit card, it has profound value in both nature and applied science. 
 

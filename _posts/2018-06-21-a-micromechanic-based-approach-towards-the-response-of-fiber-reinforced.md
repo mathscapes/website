@@ -2,8 +2,7 @@
 layout      : post
 title       : A Micromechanic-based approach towards the Response of Fiber-reinforced Composite Laminates under ballistic impact and blast loading
 author      : Rahul Singh
-categories  : Assembly
-tags        : ['Damage Mechanics']
+tags        : DamageMechanics
 ---
 
 Composites material are a significant part of a wide variety of applications such as bulletproof vests of soldiers on a battlefield to the passenger jet airliners. The dynamic and multitudinous forces of nature acting on these composites push the materials towards complex deformations, answers to which involves extensive work using numerical techniques, in order to save the expenditure involved in testing and experimentation. 

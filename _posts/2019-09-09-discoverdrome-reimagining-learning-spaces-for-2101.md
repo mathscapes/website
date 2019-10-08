@@ -2,8 +2,9 @@
 layout      : post
 title       : "Discoverdrome: Reimagining Learning Spaces for 2101"
 author      : Simran Singh
-categories  : Fusion
-tags        : ['Future', 'Learning Spaces']
+tags        : 
+    - Future
+    - Learning Spaces
 ---
 
 **Abstract.** We wonder how the world will be by the end of this century. Would classrooms be the same as now, or will robots teach children? Does the tech-advancing world need humans to learn with/from machines, without learning about machines before? The needs of our present demand sustainable measures and conscious collaboration to best suit large-scale needs. This work presents a note on a plausible design of such a learning space in 2101.

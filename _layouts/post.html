@@ -4,18 +4,9 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-
-  <p class="date">
-    {{ page.author }} /
-    {{ page.date | date: "%B %e, %Y" }} /
-    Posted in {{ page.categories }} /
-    Tagged as 
-    {% for c in page.tags %}
-      {% if forloop.last == false %}
-      {{ c }},
-      {% else %}
-      {{ c }}
-      {% endif %}
+  <p>Written by {{ page.author }} on {{ page.date | date: "%d.%m.%Y" }}. Tagged as 
+    {% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/notes/tag/{{ tag }}">#{{ tag }}</a>&nbsp;
     {% endfor %}
   </p>
 

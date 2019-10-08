@@ -108,8 +108,11 @@ pre {
 	white-space: pre;
 }
 
+.date {
+	font:        1em roboto-mono, monospace;
+}
 pre, code, tt {
-	font:        1em 'andale mono', 'lucida console', monospace;
+	font:        1em roboto-mono, monospace;
 	line-height: 1.5;
 }
 
@@ -333,4 +336,8 @@ a:target {
 	body {
 		margin:30px;
 	}
+}
+
+td {
+	vertical-align: top;
 }

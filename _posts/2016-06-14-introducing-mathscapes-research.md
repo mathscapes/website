@@ -2,7 +2,6 @@
 layout      : post
 title       : Introducing Mathscapes Research — A Vision for the technology of the Future 
 author      : Gaurav Singh
-categories  : General
 tags        : Announcement
 ---
 
