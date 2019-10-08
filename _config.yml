@@ -1,7 +1,7 @@
 # Config file
 
 name: Mathscapes Research
-url: 
+url:
 baseurl: 
 
 permalink: /notes/:title/
