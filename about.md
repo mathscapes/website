@@ -4,9 +4,9 @@ title: About Mathscapes
 permalink: /about/
 ---
 
-# A Vision for the Technology of the Future
+A Vision for the Technology of the Future
 
-## Mathscapes Research is committed to advance in the field of algorithm design through mathematical research.
+**Mathscapes Research is committed to advance in the field of algorithm design through mathematical research.**
 
 Mathscapes study and design algorithms for computational problems. We see algorithmic complexity more than just space and time; examine how maths may be used to discover and build on other possible parameters that contribute to this complexity.
 
@@ -50,26 +50,13 @@ We are a small team at the moment, and people from various disciplines are broug
 ## Commission
 Mathscapes is available to undertake commissioned projects related to following categories.
 
-### Complexity Analysis
-Provides theoretical estimates of the resources needed by any algorithm which solves a given computational problem.
-
-### Algorithm Design
-Determines a set of instructions in a well-defined formal language to solve computational problems.
-
-### Mathematical Research
-Examines the underlying abstract contexts to obtain pure mathematical results which can be utilized to develop applied mathematics.
-
-### Mathematical Modelling
-Provides a description of a system using mathematical concepts and language.
-
-### Mathematical Visualization
-Depicts graphical representation of a complex algorithm or mathematical model.
-
-### Research Mentorship
-Provides one-on-one mentorship to who seek guidance for a research project that involves mathematics, computer science or human-computer interaction.
-
-### Training and Workshop
-Facilitates learning/hackathons for large groups typically in full day formats.
+- **Complexity Analysis** provides theoretical estimates of the resources needed by any algorithm which solves a given computational problem.
+- **Algorithm Design** determines a set of instructions in a well-defined formal language to solve computational problems.
+- **Mathematical Research** examines the underlying abstract contexts to obtain pure mathematical results which can be utilized to develop applied mathematics.
+- **Mathematical Modelling** provides a description of a system using mathematical concepts and language.
+- **Mathematical Visualization** depicts graphical representation of a complex algorithm or mathematical model.
+- **Research Mentorship** provides one-on-one mentorship to who seek guidance for a research project that involves mathematics, computer science or human-computer interaction.
+- **Training and Workshop** facilitates learning/hackathons for large groups typically in full day formats.
 
 Have a project for us? Get in touch — we'd be happy to hear from you. Contact us.
 
