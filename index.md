@@ -11,12 +11,6 @@ layout: default
 
 ## Notes
 
-<!-- <div class="tags">
-  {% for tag in site.tags %}
-    <a href = "{{ site.url }}/notes/tag/{{ tag | first }}">#{{ tag | first }}</a> 
-  {% endfor %}
-</div> -->
-
 <div class="posts">
 <table style="width=100%">
   {% for post in site.posts %}
