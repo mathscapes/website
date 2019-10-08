@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : A Micromechanic-based approach towards the Response of Fiber-reinforced Composite Laminates under ballistic impact and blast loading
-author      : Rahul Singh
+author      : "Rahul Singh"
 tags        : DamageMechanics
 ---
 

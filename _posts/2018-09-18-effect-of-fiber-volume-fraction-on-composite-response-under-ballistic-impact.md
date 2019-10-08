@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Effect of Fiber Volume Fraction on Composite Response under Ballistic Impact load 
-author      : Rahul Singh
+author      : "Rahul Singh"
 categories  : Assembly
 tags        : DamageMechanics
 ---

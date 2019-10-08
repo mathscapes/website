@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<h1>{{ page.name }}</h1>
+<p>{{ page.position }}</p>
+
+{{ content }}
+
+<h2>Posts</h2>
+
+<div class="posts">
+        <table width="100%">
+            {% assign filtered_posts = site.posts | where: 'author', page.name %}
+            {% for post in filtered_posts %}
+              {% include post_preview.html %}
+            {% endfor %}
+        </table>
+</div>

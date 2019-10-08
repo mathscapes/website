@@ -4,6 +4,17 @@ baseurl:
 
 permalink: /notes/:title/
 
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -15,7 +26,7 @@ jekyll-archives:
     - tags
   layout: archive
   permalinks:
-    tag     : /notes/tag/:name/
+    tag : /notes/tag/:name/
 
 plugins:
   - jekyll-archives

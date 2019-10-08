@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : "Discoverdrome: Reimagining Learning Spaces for 2101"
-author      : Simran Singh
+author      : "Simran Singh"
 tags        : 
     - Future
     - LearningSpaces
