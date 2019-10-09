@@ -13,6 +13,9 @@
     <meta name="author" content="{{ site.name }}" />
 
     {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="twitter:title" content="{{ page.title }}" />
+    <title>{{ page.title }}</title>
+    {% endif %}
+
+    {% if page.name %}
+    <title>{{ page.name }}</title>
     {% endif %}

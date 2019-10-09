@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Mathscapes Research
 layout: default
 ---
 
