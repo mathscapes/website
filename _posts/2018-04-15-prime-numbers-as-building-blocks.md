@@ -34,7 +34,7 @@ Intrinsically, I looked for the hidden visual model but never could able to get 
 
 I began looking at the sequence and what a fantastic puzzle this is! The distribution despite following a rule does not let us pinpoint the next occurrence of prime. Is Mathematics advance enough to write the solution? Or it will remain in the class of hard problems which cannot be otherwise solved by non-brute force approach.
 
-_Any number either is prime or is measured by some prime number. -- Euclid, Elements Book VII, Proposition 32_
+> Any number either is prime or is measured by some prime number. -- Euclid, Elements Book VII, Proposition 32
 
 A **Prime number** is a positive integer $p\>1$ that has no positive integer divisors other than 1 and p itself. And a method for determining whether a number is prime or not is called as **Primality Test**. Other integers which are not Prime numbers are referred as **Composite numbers**.
 
