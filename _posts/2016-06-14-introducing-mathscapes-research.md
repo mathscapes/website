@@ -1,8 +1,9 @@
 ---
 layout      : post
 title       : Introducing Mathscapes Research — A Vision for the technology of the Future 
-author      : "Gaurav Singh"
+author      : Gaurav Singh
 tags        : Announcement
+cite        : true
 ---
 
 Flashback → 2008. I was already in awe of prime numbers and was quick (and naive?) to assume that this is possibly the solution to information compression. Already being acquainted with computer programming, I started to write algorithms to compress information using prime numbers and gradually realized why such algorithms are not practical enough despite being theoretically valid.

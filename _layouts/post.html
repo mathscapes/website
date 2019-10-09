@@ -15,8 +15,10 @@ layout: default
     {{ content }}
   </div>
 
-  <h4>Cite as</h4>
-  <p>{{ page.author }} ({{ page.date | date: "%Y, %B %d" }}). <i>{{ page.title }}</i>. Retrieved <span id="today"></span>, from https://mathscapes.xyz{{ page.url }}. </p>
+  {% if page.cite %}
+    <h4>Cite as</h4>
+    <p>{{ page.author }} ({{ page.date | date: "%Y, %B %d" }}). <i>{{ page.title }}</i>. Retrieved <span id="today"></span>, from https://mathscapes.xyz{{ page.url }}. </p>
+  {% endif %}
 </article>
 
 <script>

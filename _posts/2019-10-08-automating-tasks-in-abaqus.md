@@ -3,9 +3,10 @@ layout      : post
 title       : Automating tasks in ABAQUS
 author      : "Rahul Singh"
 tags        : ["ABAQUS", "Python", "Scripting"]
+cite        : true
 ---
 
-Python scripting allows ABAQUS[^1] users to efficiently execute and automate specific tasks, which researchers sometimes classify as manual labor. Users can code specific tasks using Python scripts and can be run from File -> Run Script. 
+Python scripting allows ABAQUS[^1] users to efficiently execute and automate specific tasks, which researchers sometimes classify as manual labor. Users can code specific tasks using Python scripts and can be run from File → Run Script. 
 
 The information regarding the objects and methods used can be found in the ABAQUS Documentation. ABAQUS Documentation contains scripting examples for basic scripting. The example scripts linked in this article explores the visualization and data extraction from ODBs and a few utility scripts to enhance productivity. 
 

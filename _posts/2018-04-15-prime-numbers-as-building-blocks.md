@@ -3,6 +3,7 @@ layout      : post
 title       : Prime Numbers as Building Blocks
 author      : "Gaurav Singh"
 tags        : PrimeNumbers
+cite        : true
 ---
 
 For as long as I remember, I always had a deep interest in prime numbers. And that's why -- this -- in an attempt to document its vast literature and carry out my research on this subject.
