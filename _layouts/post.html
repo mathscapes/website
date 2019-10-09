@@ -14,4 +14,15 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
+
+  <h4>Cite as</h4>
+  <p>{{ page.author }} ({{ page.date | date: "%Y, %B %d" }}). <i>{{ page.title }}</i>. Retrieved <span id="today"></span>, from https://mathscapes.xyz{{ page.url }}. </p>
 </article>
+
+<script>
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("today").innerHTML = d + "." + m + "." + y;
+</script>

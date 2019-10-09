@@ -1,1 +1,1 @@
-bundle exec jekyll serve JEKYLL_ENV=production -wli -d docs
+bundle exec jekyll serve JEKYLL_ENV=production -wl -d docs --verbose

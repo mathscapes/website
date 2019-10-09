@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+      <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+          <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Python scripting allows ABAQUS1 users to efficiently execute and automate specific tasks, which researchers sometimes classify as manual labor. Users can code specific tasks using Python scripts and can be run from File -&gt; Run Script.
+
+
+  
+    
+      Abaqus FEA (formerly ABAQUS) is a software suite for finite element analysis and computer-aided engineering. &#8617;
+    
+  
+
+" />
+    <meta property="og:description" content="Python scripting allows ABAQUS1 users to efficiently execute and automate specific tasks, which researchers sometimes classify as manual labor. Users can code specific tasks using Python scripts and can be run from File -&gt; Run Script.
+
+
+  
+    
+      Abaqus FEA (formerly ABAQUS) is a software suite for finite element analysis and computer-aided engineering. &#8617;
+    
+  
+
+" />
+    
+    <meta name="author" content="Mathscapes Research" />
+
+    
+    <meta property="og:title" content="Automating tasks in ABAQUS" />
+    <meta property="twitter:title" content="Automating tasks in ABAQUS" />
+    
+  </head>
+  <body>
+     <a href="/"><img src="/assets/images/logo.svg" width="60px"></a>
+     <article class="post">
+  <h1>Automating tasks in ABAQUS</h1>
+  
+  <p>Written by <a href="/authors/rahul/">Rahul Singh</a> on 08.10.2019. Tagged as 
+    
+      <a href="/notes/tag/abaqus">#ABAQUS</a>&nbsp;
+    
+      <a href="/notes/tag/python">#Python</a>&nbsp;
+    
+      <a href="/notes/tag/scripting">#Scripting</a>&nbsp;
+    
+  </p>
+
+  <div class="entry">
+    <p>Python scripting allows ABAQUS<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> users to efficiently execute and automate specific tasks, which researchers sometimes classify as manual labor. Users can code specific tasks using Python scripts and can be run from File -&gt; Run Script.</p>
+
+<p>The information regarding the objects and methods used can be found in the ABAQUS Documentation. ABAQUS Documentation contains scripting examples for basic scripting. The example scripts linked in this article explores the visualization and data extraction from ODBs and a few utility scripts to enhance productivity.</p>
+
+<h2 id="copying-parts">Copying parts</h2>
+<p>This small piece of utility script can be used to copy parts attributes like mesh, section assignments, orientation, etc.</p>
+
+<p>One can make a part and use this script to create multiple copies. If you modify a part, you can rerun the script to maintain uniformity, and the same will be updated in the Assembly.</p>
+
+<p>Example script to copy parts can be found <a href="https://github.com/mathscapes/mpart/blob/master/MPartCopy.py">here</a>.</p>
+
+<h2 id="data-extraction-and-visualization">Data extraction and visualization</h2>
+
+<p>This script can be used to extract field and/or history output data from ABAQUS ODBs. If you have a set of jobs, you can create a List (here LamN), which can be called in using for loop to open, extract and close the ODBs one by one.</p>
+
+<p>This script also allows you to maintain a consistent naming scheme for job lists e.g., JB-CP1v250. JB is a tag, CP1 being the model code and 250 could denote a specific loading condition.</p>
+
+<p>Nested could be used to execute if you have more than one set of models and loading conditions, creating combinations.</p>
+
+<p>The script is written for a particular case i.e., impact loading of plates. Major parameters like Residual velocity, Time is taken to reduce the energy of projectile to 0, Displacement of Projectile/indentor, etc. can be extracted from the ODB. The extracted data is written in a separate CSV file for post-processing.</p>
+
+<p>Example script to extract data can be found <a href="https://github.com/mathscapes/mpart/blob/master/MDataPy.py">here</a>.</p>
+
+<h2 id="references">References</h2>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Abaqus FEA (formerly ABAQUS) is a software suite for finite element analysis and computer-aided engineering. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+  <h4>Cite as</h4>
+  <p>Rahul Singh (2019, October 08). <i>Automating tasks in ABAQUS</i>. Retrieved <span id="today"></span>, from https://mathscapes.xyz/notes/automating-tasks-in-abaqus/. </p>
+</article>
+
+<script>
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("today").innerHTML = d + "." + m + "." + y;
+</script>
+    <hr/>
+     <p>
+    Copyright © 2008 - 2019 Mathscapes Research. All rights reserved unless stated otherwise.<br/>
+    <a href="http://localhost:4000/about" style="padding-right: 10px;">About</a>
+    <a href="mailto: hello@mathscapes.xyz" style="padding-right: 10px;">Email</a>
+    <a href="https://github.com/mathscapes" style="padding-right: 10px;">GitHub</a>
+    <a href="https://twitter.com/mathscapes" style="padding-right: 10px;">Twitter</a>
+</p>
+  </body>
+</html>
