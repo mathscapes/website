@@ -15,8 +15,6 @@ This small piece of utility script can be used to copy parts attributes like mes
 
 One can make a part and use this script to create multiple copies. If you modify a part, you can rerun the script to maintain uniformity, and the same will be updated in the Assembly. 
 
-Example script to copy parts can be found [here](https://github.com/mathscapes/mpart/blob/master/MPartCopy.py).
-
 ## Data extraction and visualization
 
 This script can be used to extract field and/or history output data from ABAQUS ODBs. If you have a set of jobs, you can create a List (here LamN), which can be called in using for loop to open, extract and close the ODBs one by one.
@@ -27,7 +25,7 @@ Nested could be used to execute if you have more than one set of models and load
 
 The script is written for a particular case i.e., impact loading of plates. Major parameters like Residual velocity, Time is taken to reduce the energy of projectile to 0, Displacement of Projectile/indentor, etc. can be extracted from the ODB. The extracted data is written in a separate CSV file for post-processing. 
 
-Example script to extract data can be found [here](https://github.com/mathscapes/mpart/blob/master/MDataPy.py).
+Example scripts to extract data can be found [here](https://github.com/mathscapes/mpart).
 
 ## References
 [^1]: Abaqus FEA (formerly ABAQUS) is a software suite for finite element analysis and computer-aided engineering.
