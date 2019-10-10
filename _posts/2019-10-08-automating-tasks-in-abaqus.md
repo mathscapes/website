@@ -25,7 +25,7 @@ Nested could be used to execute if you have more than one set of models and load
 
 The script is written for a particular case i.e., impact loading of plates. Major parameters like Residual velocity, Time is taken to reduce the energy of projectile to 0, Displacement of Projectile/indentor, etc. can be extracted from the ODB. The extracted data is written in a separate CSV file for post-processing. 
 
-Example scripts to extract data can be found [here](https://github.com/mathscapes/mpart).
+Example scripts can be found [here](https://github.com/mathscapes/mpart).
 
 ## References
 [^1]: Abaqus FEA (formerly ABAQUS) is a software suite for finite element analysis and computer-aided engineering.
