@@ -134,4 +134,6 @@ a:target { border: 0; outline: 0; }
 
 td { vertical-align: top; }
 
+table { border: none; border-collapse: collapse; }
+
 /*# sourceMappingURL=style.css.map */
