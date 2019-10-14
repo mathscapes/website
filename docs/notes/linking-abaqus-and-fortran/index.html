@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+      <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+          <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="ABAQUS and FORTRAN are linked to execute user subroutines such as VUMAT, UMAT, USDFLD, etc. 
+You can find various versions of ABAQUS and FORTRAN Available. Here is the compatibility list:
+
+  ABAQUS 2017
+  Intel Composer XE 2013 or above
+  Visual Studio 2010 or above v6.14
+  Intel Visual Fortran 12.0 or above
+  Visual Studio 2010 or above
+
+" />
+    <meta property="og:description" content="ABAQUS and FORTRAN are linked to execute user subroutines such as VUMAT, UMAT, USDFLD, etc. 
+You can find various versions of ABAQUS and FORTRAN Available. Here is the compatibility list:
+
+  ABAQUS 2017
+  Intel Composer XE 2013 or above
+  Visual Studio 2010 or above v6.14
+  Intel Visual Fortran 12.0 or above
+  Visual Studio 2010 or above
+
+" />
+    
+    <meta name="author" content="Mathscapes Research" />
+
+    
+    <title>Linking ABAQUS and FORTRAN</title>
+    
+
+    
+  </head>
+  <body>
+     <a href="/"><img src="/assets/images/logo.svg" width="60px"></a>
+     <article class="post">
+  <h1>Linking ABAQUS and FORTRAN</h1>
+  
+  <p>Written by <a href="/authors/rahul/">Rahul Singh</a> on 03.06.2017. Tagged as 
+    
+      <a href="/notes/tag/abaqus">#ABAQUS</a>&nbsp;
+    
+      <a href="/notes/tag/fortran">#FORTRAN</a>&nbsp;
+    
+      <a href="/notes/tag/visualstudio">#VisualStudio</a>&nbsp;
+    
+      <a href="/notes/tag/visualfortran">#VisualFortran</a>&nbsp;
+    
+      <a href="/notes/tag/tutorial">#Tutorial</a>&nbsp;
+    
+  </p>
+
+  <div class="entry">
+    <p>ABAQUS and FORTRAN are linked to execute user subroutines such as VUMAT, UMAT, USDFLD, etc. 
+You can find various versions of ABAQUS and FORTRAN Available. Here is the compatibility list:</p>
+<ul>
+  <li>ABAQUS 2017</li>
+  <li>Intel Composer XE 2013 or above</li>
+  <li>Visual Studio 2010 or above v6.14</li>
+  <li>Intel Visual Fortran 12.0 or above</li>
+  <li>Visual Studio 2010 or above</li>
+</ul>
+
+<p>One can download Student version of FORTRAN for free from <a href="https://software.intel.com/en-us/qualify-for-free-software/student">here</a>.</p>
+
+<h2 id="step-1-installation">Step 1. Installation</h2>
+<p>Install your copy of SIMULIA ABAQUS followed by Visual Studio and Visual Fortran. Make sure you install C++ component of Visual Studio as well.</p>
+
+<h2 id="step-2-fortran-compiler">Step 2. Fortran Compiler</h2>
+<p>Find <code class="highlighter-rouge">ifort.exe</code> and <code class="highlighter-rouge">ifortvars.bat</code> in Installation directory of FORTRAN. Copy the address on clip board.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"C:\Program Files (x86)\Intel\Composer XE 2013 SP1\bin\ifortvars.bat" intel64 vs2012
+</code></pre></div></div>
+
+<p><img src="/assets/images/abaqus_link1.png" alt="" /></p>
+
+<h2 id="step-3-visual-studio">Step 3. Visual Studio</h2>
+<p>Go to Installation directory of Visual Studio and copy the address of <code class="highlighter-rouge">vcvarsall.bat</code>.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\vcvarsall.bat" x64
+</code></pre></div></div>
+
+<p><img src="/assets/images/abaqus_link2.png" alt="" /></p>
+
+<h2 id="step-4-including-directories-in-abaqus-cae">Step 4. Including Directories in ABAQUS CAE</h2>
+
+<p>Go to Installation directory of ABAQUS and find <code class="highlighter-rouge">launcher.bat</code>.</p>
+
+<p>Open the file with notepad and paste the addresses in the following manner:</p>
+
+<p><img src="/assets/images/abaqus_link3.png" alt="" /></p>
+
+<p>Same can also be done by right-clicking on ABAQUS CAE shortcut → Open File Location</p>
+
+<p>Save the file.</p>
+
+<h2 id="step-5-run-abaqus-verification">Step 5. Run ABAQUS Verification</h2>
+
+<p>Run ABAQUS Verification first, It’ll create a <code class="highlighter-rouge">verify.log</code> opening which you can check if the procedure was successful.</p>
+
+<p><img src="/assets/images/abaqus_link4.png" alt="" /></p>
+
+<h2 id="step-6-run-abaqus-cae">Step 6. Run ABAQUS CAE</h2>
+
+<p>Click and open ABAQUS, you will be able to see that FORTRAN is also called along with it.</p>
+
+<p><img src="/assets/images/abaqus_link5.png" alt="" /></p>
+
+  </div>
+
+  
+    <h4>Cite as</h4>
+    <p>Rahul Singh (2017, June 03). <i>Linking ABAQUS and FORTRAN</i>. Retrieved <span id="today"></span>, from https://mathscapes.xyz/notes/linking-abaqus-and-fortran/. </p>
+  
+</article>
+
+<script>
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("today").innerHTML = d + "." + m + "." + y;
+</script>
+    <hr/>
+     <p>
+    Copyright © 2008 - 2019 Mathscapes Research. All rights reserved unless stated otherwise.<br/>
+    <a href="http://localhost:4000/about" style="padding-right: 10px;">About</a>
+    <a href="mailto: hello@mathscapes.xyz" style="padding-right: 10px;">Email</a>
+    <a href="https://github.com/mathscapes" style="padding-right: 10px;">GitHub</a>
+    <a href="https://twitter.com/mathscapes" style="padding-right: 10px;">Twitter</a>
+</p>
+  </body>
+</html>
