@@ -8,7 +8,7 @@ A Vision for the Technology of the Future
 
 **Mathscapes Research is committed to advance in the field of algorithm design through mathematical research.**
 
-Mathscapes study and design algorithms for computational problems. We see algorithmic complexity more than just space and time; examine how maths may be used to discover and build on other possible parameters that contribute to this complexity.
+Based in Bangalore, Mathscapes study and design algorithms for computational problems. We see algorithmic complexity more than just space and time; and examine how maths may be used to discover and build on other possible parameters that contribute to this complexity.
 
 Our projects are primarily research-based and include both — initiated by ourselves and commissioned. Beyond that, we are always keen to undertake projects that pivot on Mathematics and Computer Science. 
 
