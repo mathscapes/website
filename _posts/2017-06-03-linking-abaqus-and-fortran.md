@@ -2,7 +2,7 @@
 layout      : post
 title       : Linking ABAQUS and FORTRAN
 author      : Rahul Singh
-tags        : ["ABAQUS", "FORTRAN", "VisualStudio", "VisualFortran", "Tutorial" ]
+tags        : ["ABAQUS", "FORTRAN", "Vumat", "FEM", "Tutorial" ]
 cite        : true
 ---
 
