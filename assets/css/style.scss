@@ -3,8 +3,15 @@
 
 @import url("https://use.typekit.net/crm3llt.css");
 
+.logo {
+	display: block;
+	margin-left:0 !important;
+}
 img {
 	max-width: 100%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 body {
 	max-width: 760px;
@@ -354,3 +361,4 @@ table{
 	border: none;
 	border-collapse: collapse;
 }
+

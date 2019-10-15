@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+      <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+          <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="This project was done in collaboration with Debanshu Bhaumik, a Creative technologist &amp; New media art practitioner.
+" />
+    <meta property="og:description" content="This project was done in collaboration with Debanshu Bhaumik, a Creative technologist &amp; New media art practitioner.
+" />
+    
+    <meta name="author" content="Mathscapes Research" />
+
+    
+    <title>Synchronized video playback across multiple Raspberry Pi boards</title>
+    
+
+    
+  </head>
+  <body>
+     <a href="/"><img class="logo" src="/assets/images/logo.svg" width="60px"></a>
+     <article class="post">
+  <h1>Synchronized video playback across multiple Raspberry Pi boards</h1>
+  
+  <p>Written by <a href="/authors/grv/">Gaurav Singh</a> on 15.10.2019. Tagged as 
+    
+      <a href="/notes/tag/networking">#Networking</a>&nbsp;
+    
+      <a href="/notes/tag/python">#Python</a>&nbsp;
+    
+      <a href="/notes/tag/newmedia">#NewMedia</a>&nbsp;
+    
+      <a href="/notes/tag/raspberrypi">#RaspberryPi</a>&nbsp;
+    
+      <a href="/notes/tag/video">#Video</a>&nbsp;
+    
+      <a href="/notes/tag/synchronous">#Synchronous</a>&nbsp;
+    
+  </p>
+
+  <div class="entry">
+    <p>This project was done in collaboration with <a href="https://bhaumikdebanshu.wixsite.com/portfolio">Debanshu Bhaumik</a>, a Creative technologist &amp; New media art practitioner.</p>
+
+<p>Popularity and power of single board computers like Raspberry Pi have made it possible not just to promote the teaching of basic computer science but also to prototype and in fact, to be even used by artists in their installations who often have particular requirements to be met. Boards like Raspberry Pi are quite capable and in many cases can substitute full PCs for such installations.</p>
+
+<p>Playing single/multiple videos across multiple (and often large) displays require specialized hardware splitters and devices to read in video from a computer and then sent out to multiple devices in a synchronised manner. However, these devices are expensive and require an expert who has the know-how of using it. This small but meaningful realization by Debanshu eventually led us to build a simple API to facilitate synced video playback across multiple Raspberry Pi boards.</p>
+
+<p>We have currently built a basic prototype of the implementation, and the following part of this post explains the working of it in detail.</p>
+
+<p><img src="/assets/images/svideo-architecture-01.svg" width="300px" /></p>
+<figcaption>SVideo architecture</figcaption>
+
+<p>On one side, the boards are connected in a master-slave combination where the master computer controls the playback across the rest of the boards, which works in slave mode, each of the boards can be connected to any display device. The display devices may be placed in multiple configurations - from the standard grid to anything desired. The current implementation of the API does not do anything to the video file and uses pre-stored video files on the respective boards to playback in a synchronized manner. The current method can also extend to run a video file from the network or apply effects like cropping, video filters in near realtime.</p>
+
+<p>The boards communicate over standard TCP/IP socket and get paired by a single handshake and tell the master computer whenever they are ready to start playback. Once all the slave computer responds with the available status, the master computer schedules or instructs all the slave computers to initiate the video playback. VLC player currently holds the video playback through the command line, which also removes any other screen to be displayed on the actual display, which otherwise is not relevant to the overall aesthetics/experience of the installation.</p>
+
+<p>While the final fixes on the API are still coming through, we are happy to show you SVideo API, which is currently hosted <a href="https://github.com/mathscapes/svideo">here</a>. Feel free to check out and contact us for more information.</p>
+
+  </div>
+
+  
+</article>
+
+<script>
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("today").innerHTML = d + "." + m + "." + y;
+</script>
+    <hr/>
+     <div style="margin-bottom:1em;">
+    <a href="http://localhost:4000/about" style="padding-right: 10px;">About</a>
+    <a href="mailto: hello@mathscapes.xyz" style="padding-right: 10px;">Email</a>
+    <a href="https://github.com/mathscapes" style="padding-right: 10px;">GitHub</a>
+    <a href="https://twitter.com/mathscapes" style="padding-right: 10px;">Twitter</a> 
+</div>
+<div>
+    Copyright © 2008 - 2019 Mathscapes Research and its contributers.<br/>
+    Built with <a href="https://jekyllrb.com">Jekyll</a> and hosted on <a href="https://github.com">Github</a>.<br/>
+</div>
+  </body>
+</html>
