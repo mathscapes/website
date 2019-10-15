@@ -12,6 +12,7 @@ Based in Bangalore, Mathscapes study and design algorithms for computational pro
 <hr/>
 
 ## Notes
+Notes is where we publish about our current projects and activities, including insights into our design approach and practice.
 
 <div class="posts">
 <table style="width=100%">
