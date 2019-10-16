@@ -16,7 +16,7 @@ img {
 body {
 	max-width: 760px;
 	font-size:   13pt;
-	color:       #222;
+	color:      #000;
 	background:  #fff;
 	font-family: neue-haas-grotesk-text, sans-serif;
 	line-height: 1.4;
@@ -46,11 +46,12 @@ h1 {
 
 h2 {
 	font-size:     16pt;
+	color: maroon;
 }
 
 h3 {
 	font-size:   14pt;
-	color:	   #434343;
+	color:	   black;
 }
 
 h4 {
@@ -84,23 +85,19 @@ p {
 	margin: 0 0 1.5em;
 }
 
-a:focus, a:hover {
-	color: #09f;
-}
-
 a {
-	color:           #000;
-	text-decoration: underline;
+	color: maroon;
+	text-decoration: none;
 }
 
 a:hover {
-	color:#666;
+	color: maroon;
 	text-decoration: underline;
 }
 
 blockquote {
 	margin: 1.5em;
-	color:  #666;
+	color:  #000;
 }
 
 strong, dfn {
@@ -123,6 +120,7 @@ pre {
 td.date, .date {
 	font: 1em roboto-mono, monospace;
 	padding-right: 10px;
+	color: #000;
 }
 
 pre, code, tt {
@@ -362,3 +360,7 @@ table{
 	border-collapse: collapse;
 }
 
+ion-icon{
+	margin-bottom: -2px;
+	color: maroon; 
+}

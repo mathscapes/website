@@ -11,7 +11,7 @@ Based in Bangalore, Mathscapes study and design algorithms for computational pro
 
 <hr/>
 
-## Notes
+## <ion-icon name="list-box"></ion-icon> Notes
 Notes is where we publish about our current projects and activities, including insights into our design approach and practice.
 
 <div class="posts">
@@ -22,7 +22,7 @@ Notes is where we publish about our current projects and activities, including i
 </table>
 </div>
 
-### Browse by Tags
+### <ion-icon name="pricetags"></ion-icon> Browse by Tags
 
 <div>
 {% for tag in site.tags %}

@@ -4,7 +4,7 @@
 
 img { max-width: 100%; display: block; margin-left: auto; margin-right: auto; }
 
-body { max-width: 760px; font-size: 13pt; color: #222; background: #fff; font-family: neue-haas-grotesk-text, sans-serif; line-height: 1.4; margin: 10% auto; }
+body { max-width: 760px; font-size: 13pt; color: #000; background: #fff; font-family: neue-haas-grotesk-text, sans-serif; line-height: 1.4; margin: 10% auto; }
 
 h2.home a { text-decoration: none; color: #000; }
 
@@ -14,9 +14,9 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; color: #000; margin-bottom: 0.5em;
 
 h1 { font-size: 20pt; }
 
-h2 { font-size: 16pt; }
+h2 { font-size: 16pt; color: maroon; }
 
-h3 { font-size: 14pt; color: #434343; }
+h3 { font-size: 14pt; color: black; }
 
 h4 { font-size: 12pt; color: #666666; }
 
@@ -30,13 +30,11 @@ video { width: 100%; object-fit: scale-down; }
 
 p { margin: 0 0 1.5em; }
 
-a:focus, a:hover { color: #09f; }
+a { color: maroon; text-decoration: none; }
 
-a { color: #000; text-decoration: underline; }
+a:hover { color: maroon; text-decoration: underline; }
 
-a:hover { color: #666; text-decoration: underline; }
-
-blockquote { margin: 1.5em; color: #666; }
+blockquote { margin: 1.5em; color: #000; }
 
 strong, dfn { font-weight: bold; }
 
@@ -46,7 +44,7 @@ del { color: #666; }
 
 pre { margin: 1.5em 0; white-space: pre; }
 
-td.date, .date { font: 1em roboto-mono, monospace; padding-right: 10px; }
+td.date, .date { font: 1em roboto-mono, monospace; padding-right: 10px; color: #000; }
 
 pre, code, tt { font: 1em roboto-mono, monospace; line-height: 1.5; }
 
@@ -137,5 +135,7 @@ a:target { border: 0; outline: 0; }
 td { vertical-align: top; }
 
 table { border: none; border-collapse: collapse; }
+
+ion-icon { margin-bottom: -2px; color: maroon; }
 
 /*# sourceMappingURL=style.css.map */

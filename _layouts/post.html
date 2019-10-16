@@ -5,7 +5,7 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
   {% assign author = site.authors | where: 'name', page.author | first%}
-  <p>Written by <a href="{{ author.url }}">{{ page.author }}</a> on {{ page.date | date: "%d.%m.%Y" }}. Tagged as 
+  <p><ion-icon name="contact"></ion-icon> Written by <a href="{{ author.url }}">{{ page.author }}</a> &nbsp; <ion-icon name="calendar"></ion-icon> Posted on {{ page.date | date: "%d.%m.%Y" }} <br/> <ion-icon name="pricetags"></ion-icon> Tagged as  
     {% for tag in page.tags %}
       <a href="{{ site.baseurl }}/notes/tag/{{ tag | downcase }}">#{{ tag }}</a>&nbsp;
     {% endfor %}
@@ -16,7 +16,7 @@ layout: default
   </div>
 
   {% if page.cite %}
-    <h4>Cite as</h4>
+    <h4><ion-icon name="quote"></ion-icon> Cite as</h4>
     <p>{{ page.author }} ({{ page.date | date: "%Y, %B %d" }}). <i>{{ page.title }}</i>. Retrieved <span id="today"></span>, from https://mathscapes.xyz{{ page.url }}. </p>
   {% endif %}
 </article>
