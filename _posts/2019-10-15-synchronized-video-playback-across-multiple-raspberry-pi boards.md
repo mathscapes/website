@@ -2,7 +2,7 @@
 layout      : post
 title       : Synchronized video playback across multiple Raspberry Pi boards
 author      : "Gaurav Singh"
-tags        : ["Networking", "Python", "NewMedia", "RaspberryPi", "Video", "Synchronous"]
+tags        : ["Python", "NewMedia", "RaspberryPi", "Video", "Synchronous"]
 cite        : false
 ---
 

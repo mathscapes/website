@@ -1,10 +1,12 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/crm3llt.css");
-.logo { display: block; margin-left: 0 !important; }
+.logo { display: block; margin: 3em 0 0 3em; width: 3.5em; }
 
 img { max-width: 100%; display: block; margin-left: auto; margin-right: auto; }
 
-body { max-width: 760px; font-size: 13pt; color: #000; background: #fff; font-family: neue-haas-grotesk-text, sans-serif; line-height: 1.4; margin: 10% auto; }
+body { font-size: 14px; color: #000; background: #fff; font-family: neue-haas-grotesk-text, sans-serif; line-height: 1.4; margin: 0; }
+
+div.container { margin: 5% auto; max-width: 760px; }
 
 h2.home a { text-decoration: none; color: #000; }
 
@@ -12,7 +14,7 @@ h2.home a:hover { text-decoration-line: underline; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; color: #000; margin-bottom: 0.5em; padding-top: 1em; line-height: 1.2; }
 
-h1 { font-size: 20pt; }
+h1 { font-size: 18pt; font-weight: 400; max-width: 600px; }
 
 h2 { font-size: 16pt; color: maroon; }
 
@@ -44,7 +46,7 @@ del { color: #666; }
 
 pre { margin: 1.5em 0; white-space: pre; }
 
-td.date, .date { font: 1em roboto-mono, monospace; padding-right: 10px; color: #000; }
+td.date, .date { font: 1em roboto-mono, monospace; width: 10%; padding-right: 10px; color: #000; }
 
 pre, code, tt { font: 1em roboto-mono, monospace; line-height: 1.5; }
 
@@ -62,7 +64,7 @@ figcaption { font-size: 0.75em; margin-top: -1em; margin-bottom: 2em; text-align
 
 figure img { margin-bottom: 0px; }
 
-hr { border: 0px; border-top: 1px solid #ddd; border-bottom: 1px solid #fff; margin-top: 4em; margin-bottom: 2em; }
+hr { border: 0px; border-top: 2px solid #ddd; margin-top: 4em; margin-bottom: 2em; }
 
 h1 + hr { margin-top: 2em; }
 
@@ -130,12 +132,28 @@ a:target, ol#footnotes li:target, sup a:target { animation-name: highfade; anima
 
 a:target { border: 0; outline: 0; }
 
-@media screen and (max-width: 768px) { body { margin: 30px; } }
-
 td { vertical-align: top; }
 
 table { border: none; border-collapse: collapse; }
 
 ion-icon { margin-bottom: -2px; color: maroon; }
+
+a.primary-btn { -webkit-border-radius: 3; -moz-border-radius: 3; border-radius: 3px; color: #ffffff; font-size: 16px; background: #800000; padding: 10px 20px 10px 20px; display: inline-block; margin-top: 1em; text-decoration: none; border: 2px solid #800000; margin-left: 0.5em; margin-right: 0.5em; }
+
+a.primary-btn:hover { background: #570000; border: 2px solid #570000; text-decoration: none; }
+
+a.btn { -webkit-border-radius: 3; -moz-border-radius: 3; border-radius: 3px; color: #800000; font-size: 16px; background: white; border: 2px solid #800000; padding: 10px 20px 10px 20px; display: inline-block; margin-top: 1em; text-decoration: none; margin-left: 0.5em; margin-right: 0.5em; }
+
+a.btn:hover { background: #570000; border: 2px solid #570000; color: white; text-decoration: none; }
+
+p.tertiary { max-width: 400px; margin-top: 20px; color: #444; font-size: 12px; }
+
+@media only screen and (max-width: 600px) { .logo { display: block; margin: 0 auto; width: 3.5em; }
+  a.primary-btn, a.btn { display: block !important; width: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; font-size: 14px; }
+  body { margin: 20px; font-size: 12px; }
+  h1 { font-size: 16px; }
+  h2, h3, h4, h5, h6 { font-size: 14px; }
+  p.tertiary { margin-top: 0px; }
+  hr { margin-top: 2em; margin-bottom: 1em; } }
 
 /*# sourceMappingURL=style.css.map */
