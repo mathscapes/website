@@ -5,8 +5,8 @@
 
 .logo {
 	display: block;
-	margin: 3em 0 0 3em;
-	width: 3.5em;
+	margin: 20px 0 0 20px;
+	width: 50px;
 }
 
 img {
@@ -420,6 +420,9 @@ p.tertiary{
 	color: #444;
 	font-size: 12px;
 }
+div.meta{
+	margin-bottom:20px;
+}
 @media only screen and (max-width: 600px) {
 	.logo {
 		display: block;
@@ -435,6 +438,7 @@ p.tertiary{
 		margin-right: 0px;
 		margin-bottom: 0px;
 		font-size: 14px;
+		text-align: center;
 	}
 	body{
 		margin: 20px;
@@ -442,6 +446,7 @@ p.tertiary{
 	}
 	h1{
 		font-size: 16px;
+		text-align: center;
 	}
 	h2,h3,h4,h5,h6 {
 		font-size: 14px;
@@ -452,5 +457,8 @@ p.tertiary{
 	hr{
 		margin-top: 2em;
 		margin-bottom: 1em;
+	}
+	div.meta{
+		text-align: center;
 	}
 }

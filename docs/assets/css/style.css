@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/crm3llt.css");
-.logo { display: block; margin: 3em 0 0 3em; width: 3.5em; }
+.logo { display: block; margin: 20px 0 0 20px; width: 50px; }
 
 img { max-width: 100%; display: block; margin-left: auto; margin-right: auto; }
 
@@ -148,12 +148,15 @@ a.btn:hover { background: #570000; border: 2px solid #570000; color: white; text
 
 p.tertiary { max-width: 400px; margin-top: 20px; color: #444; font-size: 12px; }
 
+div.meta { margin-bottom: 20px; }
+
 @media only screen and (max-width: 600px) { .logo { display: block; margin: 0 auto; width: 3.5em; }
-  a.primary-btn, a.btn { display: block !important; width: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; font-size: 14px; }
+  a.primary-btn, a.btn { display: block !important; width: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; font-size: 14px; text-align: center; }
   body { margin: 20px; font-size: 12px; }
-  h1 { font-size: 16px; }
+  h1 { font-size: 16px; text-align: center; }
   h2, h3, h4, h5, h6 { font-size: 14px; }
   p.tertiary { margin-top: 0px; }
-  hr { margin-top: 2em; margin-bottom: 1em; } }
+  hr { margin-top: 2em; margin-bottom: 1em; }
+  div.meta { text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
