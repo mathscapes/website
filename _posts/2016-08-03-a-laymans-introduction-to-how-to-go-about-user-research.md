@@ -12,7 +12,7 @@ Users wouldn't always know or tell you what they need. Research is a necessary p
 
 And the approach is not straight forward always. There are real-world challenges, but more importantly, circumstances that are part of being in a studio or company that shape which informs your approach and could affect end-results of your research.
 
-> "Research is formalized curiosity. It is poking and prying with a purpose." - Zora Neale Hurston
+> "Research is formalized curiosity. It is poking and prying with a purpose." <span class="source">-- Zora Neale Hurston</span>
 
 ## Don't immediately get to the solution
 You might have done similar projects before and might be aware of the answer to the common problems. However, do not hurry into finishing research and jump to design. Chances are one will overlook the critical points. However obvious this may sound, you will still try to develop a solution due to the client's demand or tight timeline. Instead, the first step is to get a clear brief from the client. And remember that this is not easy! A summary can't be too brief, and it still needs to carry all the details that cannot afford to be missed by any of the stakeholders. Some of the questions I have personally asked myself in this process are —
@@ -29,7 +29,7 @@ At this stage, one should have everything to begin the research. Yes, the actual
 ## Research (and Observe)
 However simple this may sound; this is exhaustive and is worthless if you don't have a clear plan. Don't decide the solution or result before actually reaching there by the facts.
 
-> "We tend to be distracted by the voices in our own heads telling us what the design should look like." - Michael Bierut, Pentagram Design
+> "We tend to be distracted by the voices in our own heads telling us what the design should look like." <span class="source">-- Michael Bierut, Pentagram Design</span>
 
 The chances are that one will not be able to find if he is biased by himself. Peer reviews can be of help here. Organize and document the research, and don't be afraid of picking facts that may not sound relevant directly. The mode of the investigation drives the quality of the study. What is the information that comes from the target user, and what happens from the publications or experts? Many researchers select users based on ease of accessibility. Picking friends and family for the user study for the research who does not qualify in the desired target group should never be done. The sample size is another thing that is critical and should always have a basis. Also, It is hard to end the research because one may not know that if this research will suffice the intent set in the plan or not, and this is why that analysis of the study should happen simultaneously with the investigation.
 

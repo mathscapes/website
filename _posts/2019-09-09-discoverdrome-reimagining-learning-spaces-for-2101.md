@@ -2,7 +2,7 @@
 layout      : post
 title       : "Discoverdrome: Reimagining Learning Spaces for 2101"
 author      : "Simran Singh"
-tags        : ["Future", "LearningSpaces", "SpeculativeDesign"]
+tags        : ["Future", "LearningSpaces", "SpeculativeDesign", "Reflection"]
 cite        : true
 ---
 
@@ -156,7 +156,7 @@ Plans and blueprints hold responsibility of imparting a certain experience on im
 
 We see the world emerge with better technology and design solutions, enabled by successful learners and creators of our time. But what about those great ideas that are restricted by our own limited ideologies of learning? 
 
-> “Students not used to prolonged thinking on a single problem start off well. However, soon they find motivation and inspiration leaving them, and they start dreading working on the problem as failure would lead them to question something they (by now) crucially identify with: “smartness”. Procrastination kicks in, and soon the student is busy in a diverse set of academic (but non-research!) activities to hide the reality of not working, like writing complicated scripts to automate their soon-to-be-coming publication phase, optimizing their daily vitamin B12 intake, getting heavily involved with political and religious movements and so on. Few students are able to critically introspect, which is reasonable since society has informed them that smartness is what matters, and if they are unable to solve the problem quickly, the logical conclusion is that they are not smart.” — Nabil H. Mustafa, On Being Smart
+> “Students not used to prolonged thinking on a single problem start off well. However, soon they find motivation and inspiration leaving them, and they start dreading working on the problem as failure would lead them to question something they (by now) crucially identify with: “smartness”. Procrastination kicks in, and soon the student is busy in a diverse set of academic (but non-research!) activities to hide the reality of not working, like writing complicated scripts to automate their soon-to-be-coming publication phase, optimizing their daily vitamin B12 intake, getting heavily involved with political and religious movements and so on. Few students are able to critically introspect, which is reasonable since society has informed them that smartness is what matters, and if they are unable to solve the problem quickly, the logical conclusion is that they are not smart.” <span class="source">— Nabil H. Mustafa, On Being Smart</span>
 
 Understanding, realising and living these limitations in the present, we see the fallbacks of lack of concentration and affected productivity each day. Learning from our own extended experiences in and because of our school classroom space, the giveaway for the future here is a set of ideas, emerging into a process holding plausible interventions we feel are imperative. 
 
@@ -169,5 +169,5 @@ We understand that the future brings with itself its new complications, and we s
 _Acknowledgement._ I would use this space to thank the following people, who kept reminding me from time to time what a beautiful process making is. [Karan Dudeja](http://kdo.fyi), for helping us construct, de-and-re-construct the icosahedron to its current form. Gunika Sahni, Anamika Samanta and Sabareesh Nair, for making me take breaks just before I would exhaust myself using the paper-cutter, patiently accompanying my work and occasionally cutting some paper themselves. Blender, for making this project less laborious. I know a hundred different ways I would have deviated working with building blocks. And [Gaurav Singh]({{ site.url }}/authors/grv), for mentoring me through the entire process, and weaving my learning experience towards an ever-evolving unfolding journey. Discoverdrome is appropriately named. 
 
 ## References
-[^1]:	Analemma is an upside down building, it is suspended from space and barely touches the Earth.
-[^2]:	Blender is a free and open-source 3D computer graphics software toolset.
+[^1]: Analemma is an upside down building, it is suspended from space and barely touches the Earth.
+[^2]: Blender is a free and open-source 3D computer graphics software toolset.

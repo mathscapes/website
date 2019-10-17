@@ -18,7 +18,7 @@ Mathematics is what I think, is the framework for abstraction and logic. It is t
 
 Often the most simple looking problems are the hardest. Finding just a solution do not suffice — most of our resources are limited, and optimal algorithms will allow better utilization of resources. This very point brings us to Mathematics — it sets up the foundation for us to theorize the patterns, conjectures, and design algorithms that are not just correct but efficient too.
 
-> “Abstraction consists essentially in the creation and utilization of ambiguity.” .. “Logic moves in one direction, the direction of clarity, coherence, and structure. Ambiguity moves in the other direction, that of fluidity, openness, and release. Mathematics moves back and forth between these two poles. .. It is the interaction between these different aspects that gives mathematics its power.”  — William Byers (How Mathematicians Think, Princeton University Press, 2007)
+> “Abstraction consists essentially in the creation and utilization of ambiguity.” [..] “Logic moves in one direction, the direction of clarity, coherence, and structure. Ambiguity moves in the other direction, that of fluidity, openness, and release. Mathematics moves back and forth between these two poles. [..] It is the interaction between these different aspects that gives mathematics its power.” <span class="source">— William Byers (How Mathematicians Think, Princeton University Press, 2007)</span>
 
 ## Mathscapes’ pursuit is to transform the way the world engages with technology.
 

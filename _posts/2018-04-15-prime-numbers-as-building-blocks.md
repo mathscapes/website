@@ -10,7 +10,7 @@ For as long as I remember, I always had a deep interest in prime numbers. And th
 
 Prime Numbers are the building blocks of the numbers and perhaps the processes in the Universe, as I like to think. While it may seem simple to understand what are prime numbers, its startling to find their presence in unusual places. From the prime-numbered life span of Cicada to ensuring security on your credit card, it has profound value in both nature and applied science. 
 
-> Mathematicians have tried in vain to this day to discover some order in the sequence of prime numbers, and we have reason to believe that it is a mystery into which the mind will never penetrate". -- Euler
+> Mathematicians have tried in vain to this day to discover some order in the sequence of prime numbers, and we have reason to believe that it is a mystery into which the mind will never penetrate". <span class="source">-- Euler</span>
 
 The fundamental theorem of arithmetic states that every positive integer has a unique prime factorization. This theorem is thus also referred as unique factorization theorem.
 
@@ -30,11 +30,11 @@ Now that being said, I’m sometimes put down by imagining the incredible litera
 
 Intrinsically, I looked for the hidden visual model but never could able to get past any existing research. It is incredibly distracting as it appears to follow an unknown rule. Prime numbers have indisputably kept me occupied for many years now. And with the computers we have now, it is probably going to be the very exciting era for mathematical research and a significant leap is not so far away.
 
-> There are two facts about the distribution of prime numbers of which I hope to convince you so overwhelmingly that they will be permanently engraved in your hearts. The first is that, despite their simple definition and role as the building blocks of the natural numbers, the prime numbers grow like weeds among the natural numbers, seeming to obey no other law than that of chance, and nobody can predict where the next one will sprout. The second fact is even more astonishing, for it states just the opposite: that the prime numbers exhibit stunning regularity, that there are laws governing their behaviour, and that they obey these laws with almost military precision". -- D. Zagier at a lecture (1975)
+> There are two facts about the distribution of prime numbers of which I hope to convince you so overwhelmingly that they will be permanently engraved in your hearts. The first is that, despite their simple definition and role as the building blocks of the natural numbers, the prime numbers grow like weeds among the natural numbers, seeming to obey no other law than that of chance, and nobody can predict where the next one will sprout. The second fact is even more astonishing, for it states just the opposite: that the prime numbers exhibit stunning regularity, that there are laws governing their behaviour, and that they obey these laws with almost military precision". <span class="source">-- D. Zagier at a lecture (1975)</span>
 
 I began looking at the sequence and what a fantastic puzzle this is! The distribution despite following a rule does not let us pinpoint the next occurrence of prime. Is Mathematics advance enough to write the solution? Or it will remain in the class of hard problems which cannot be otherwise solved by non-brute force approach.
 
-> Any number either is prime or is measured by some prime number. -- Euclid, Elements Book VII, Proposition 32
+> Any number either is prime or is measured by some prime number. <span class="source">-- Euclid, Elements Book VII, Proposition 32</span>
 
 A _Prime number_ is a positive integer $p\>1$ that has no positive integer divisors other than 1 and p itself. And a method for determining whether a number is prime or not is called as _Primality Test_. Other integers which are not Prime numbers are referred as _Composite numbers_.
 
