@@ -22,7 +22,7 @@ $$ 234 = 2 \times 3^2 \times 13 $$
 
 This theorem in fact, is the reason why some numbers are called Prime and also why 1 is not referred as a prime number, so to avoid non-unique combinations of factors.
 
-> Prime makes the composite numbers. But, what are primes made up of? Are prime numbers the result of how we framed the rules of Maths to be? Or did it always existed?
+> Prime makes the composite numbers. But, what are primes made up of? Are prime numbers the result of how we framed the rules of Maths to be? Or did it always exist?
 
 Well whether or not if they are real, it has irrespectively awakened my curiosity to study it and perhaps define a formula. How can something that appears simple and yet not understood entirely?
 
