@@ -34,7 +34,7 @@ p { margin: 0 0 1.5em; }
 
 a { color: maroon; text-decoration: none; }
 
-a:hover { color: maroon; text-decoration: underline; }
+a:hover { color: #570000; text-decoration: underline; }
 
 blockquote { font-style: italic; margin: 1.5em; color: #000; }
 
