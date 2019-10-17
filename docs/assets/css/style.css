@@ -4,7 +4,7 @@
 
 img { max-width: 100%; display: block; margin-left: auto; margin-right: auto; }
 
-body { font-size: 14px; color: #000; background: #fff; font-family: neue-haas-grotesk-text, sans-serif; line-height: 1.4; margin: 0; }
+body { font-size: 16px; color: #000; background: white; font-family: source-serif-pro, serif; line-height: 1.4; margin: 0; }
 
 div.container { margin: 5% auto; max-width: 760px; }
 
@@ -12,9 +12,9 @@ h2.home a { text-decoration: none; color: #000; }
 
 h2.home a:hover { text-decoration-line: underline; }
 
-h1, h2, h3, h4, h5, h6 { font-weight: normal; color: #000; margin-bottom: 0.5em; padding-top: 1em; line-height: 1.3; }
+h1, h2, h3, h4, h5, h6 { font-family: neue-haas-grotesk-text, sans-serif; font-weight: normal; color: #000; margin-bottom: 0.5em; padding-top: 1em; line-height: 1.3; }
 
-h1 { font-size: 18pt; font-weight: 400; max-width: 600px; }
+h1 { font-family: source-serif-pro, serif; font-size: 18pt; font-weight: 400; max-width: 650px; }
 
 h2 { font-size: 16pt; color: maroon; }
 
@@ -36,7 +36,7 @@ a { color: maroon; text-decoration: none; }
 
 a:hover { color: maroon; text-decoration: underline; }
 
-blockquote { margin: 1.5em; color: #000; }
+blockquote { font-style: italic; margin: 1.5em; color: #000; }
 
 strong, dfn { font-weight: bold; }
 
@@ -60,11 +60,11 @@ ol { list-style-type: decimal; }
 
 figure { margin: 1.5em 0; width: 100%; text-align: center; }
 
-figcaption { font-size: 0.75em; margin-top: -1em; margin-bottom: 2em; text-align: center; }
+figcaption { font-size: 0.75em; margin-top: -1em; margin-bottom: 2em; text-align: center; font-family: neue-haas-grotesk-text, sans-serif; max-width: 560px; margin-left: auto; margin-right: auto; }
 
 figure img { margin-bottom: 0px; }
 
-hr { border: 0px; border-top: 2px solid #ddd; margin-top: 4em; margin-bottom: 2em; }
+hr { border: 0px; border-top: 1px solid #ddd; margin-top: 4em; margin-bottom: 2em; }
 
 h1 + hr { margin-top: 2em; }
 
@@ -77,9 +77,9 @@ ol p, ul p { margin-bottom: 0px; }
 li { margin-bottom: 0.75em; margin-top: 0.75em; }
 
 /* Code Highlighting */
-code { font-family: 'Menlo', monospace; font-size: 10.5pt; }
+code { font: 1em roboto-mono, monospace; font-size: 10.5pt; }
 
-p > code { padding: 0.2em 0.4em; background: #eee; }
+p > code { padding: 0.2em 0.4em; }
 
 pre { color: #000; text-align: left; line-height: 1.2em; overflow-x: scroll; background: #f8f8f8; padding: 20pt; margin: 20pt 0; border-radius: 3pt; white-space: pre-wrap; tab-size: 4; }
 
@@ -138,19 +138,21 @@ table { border: none; border-collapse: collapse; }
 
 ion-icon { margin-bottom: -2px; color: maroon; }
 
-a.primary-btn { -webkit-border-radius: 3; -moz-border-radius: 3; border-radius: 3px; color: #ffffff; font-size: 16px; background: #800000; padding: 10px 20px 10px 20px; display: inline-block; margin-top: 1em; text-decoration: none; border: 2px solid #800000; margin-left: 0.5em; margin-right: 0.5em; }
+a.primary-btn, a.btn { font-family: neue-haas-grotesk-text, sans-serif; }
 
-a.primary-btn:hover { background: #570000; border: 2px solid #570000; text-decoration: none; }
+a.primary-btn { -webkit-border-radius: 3; -moz-border-radius: 3; border-radius: 3px; color: #ffffff; font-size: 16px; background: #800000; padding: 10px 20px 10px 20px; display: inline-block; margin-top: 1em; text-decoration: none; border: 1px solid #800000; margin-left: 0.5em; margin-right: 0.5em; }
 
-a.btn { -webkit-border-radius: 3; -moz-border-radius: 3; border-radius: 3px; color: #800000; font-size: 16px; background: white; border: 2px solid #800000; padding: 10px 20px 10px 20px; display: inline-block; margin-top: 1em; text-decoration: none; margin-left: 0.5em; margin-right: 0.5em; }
+a.primary-btn:hover { background: #570000; border: 1px solid #570000; text-decoration: none; }
 
-a.btn:hover { background: #570000; border: 2px solid #570000; color: white; text-decoration: none; }
+a.btn { -webkit-border-radius: 3; -moz-border-radius: 3; border-radius: 3px; color: #800000; font-size: 16px; background: white; border: 1px solid #800000; padding: 10px 20px 10px 20px; display: inline-block; margin-top: 1em; text-decoration: none; margin-left: 0.5em; margin-right: 0.5em; }
 
-p.tertiary { max-width: 400px; margin-top: 20px; color: #444; font-size: 12px; }
+a.btn:hover { background: #570000; border: 1px solid #570000; color: white; text-decoration: none; }
+
+p.tertiary { max-width: 400px; margin-top: 20px; color: #444; font-size: 12px; font-family: neue-haas-grotesk-text, sans-serif; }
 
 div.meta { margin-bottom: 20px; }
 
-@media only screen and (max-width: 600px) { .logo { display: block; margin: 0 auto; width: 3.5em; }
+@media only screen and (max-width: 600px) { .logo { display: block; margin: 0 auto; width: 50px; }
   a.primary-btn, a.btn { display: block !important; width: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; font-size: 14px; text-align: center; }
   body { margin: 20px; font-size: 12px; }
   h1 { font-size: 16px; text-align: center; }

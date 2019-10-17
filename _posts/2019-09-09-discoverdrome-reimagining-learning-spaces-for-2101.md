@@ -6,15 +6,13 @@ tags        : ["Future", "LearningSpaces", "SpeculativeDesign"]
 cite        : true
 ---
 
-**Abstract.** We wonder how the world will be by the end of this century. Would classrooms be the same as now, or will robots teach children? Does the tech-advancing world need humans to learn with/from machines, without learning about machines before? The needs of our present demand sustainable measures and conscious collaboration to best suit large-scale needs. This work presents a note on a plausible design of such a learning space in 2101.
-
-
+_Abstract._ We wonder how the world will be by the end of this century. Would classrooms be the same as now, or will robots teach children? Does the tech-advancing world need humans to learn with/from machines, without learning about machines before? The needs of our present demand sustainable measures and conscious collaboration to best suit large-scale needs. This work presents a note on a plausible design of such a learning space in 2101.
 
 ## Introduction
 It is the year 2100 on the Earth, and a leading research institution is betting high on the future of education. Most technologies continue to obey Moore’s law and empower humans. Time machines exist discreetly in the multi-level security of Analemma[^1], a place beyond the Earth. The institution, expanding its scope of their research, extends several invites in the past to build a team of people from important times in history who would be assigned to design a Discoverdrome each that captures the best of ideas from their time.
 
 ![]({{ site.baseurl }}/assets/images/discoverdrome_dd0.png)
-<figcaption><b>Discoverdrome</b> /dɪˈskʌvədrəʊm/ noun. A space where children discover. <br/>A metaphorically limitless space for study and discovery.</figcaption>
+<figcaption>Discoverdrome /dɪˈskʌvədrəʊm/ noun. A space where children discover. <br/>A metaphorically limitless space for study and discovery.</figcaption>
 
 Motivated with this, I set out to explore if there is any sign of speculating a learning space in a distant future by any means. _What will be my method of discussing and designing? Can research about present inform my decisions or if there is no point of the study?_ But even with the remotest possibility of likelihood of this imagination transforming into reality sometime in the future, my research could help determine the suggested transition of our current needs and understanding for the educational demands for our upcoming future. Studying how the classrooms of our time shaped our own experiences, this exploration suggests the essentials as well as the expected we hope to impart to the future.
 
@@ -30,83 +28,83 @@ Centering our approach towards collaborative learning and exploration in this sp
 
 Realizing that our classrooms were rigid and communal, I decide that the future should also provide room for personal space and exploration. It would perhaps be nice to have many corners in the place for children to occupy. An octagonal floor-plan was first laid out.
 
-![Making of the geodesic dome took several attempts to perfect the desired icosahedron.]({{ site.baseurl }}/assets/images/discoverdrome_making.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_making.jpg" style="max-width:300px;"/>
 <figcaption>Making of the geodesic dome took several attempts to perfect the desired icosahedron.</figcaption>
 
-![Dome layout]({{ site.baseurl }}/assets/images/discoverdrome_dome_layout.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_dome_layout.jpg" style="max-width:300px;"/>
 <figcaption>Dome layout</figcaption>
 
 The scaling of objects concerning the laid out floor had us question whether eight sides are ideal when entrances could likely occupy two or more. We extended this exploration to Blender[^2], where the overall space was designed, keeping in mind- natural light and enough space. A library, like a to-go space within the classroom, was planned. It would be a floor above for proximity and a good view, smaller than the ground floor but acting as a balcony. This was also necessitated by fictional inspirations, where libraries often fancy knowledge as power. In my school once a week, I would have an hour-long library period. Other days, I would have to find the time and seek permissions to get time there during school hours. This hassle was not necessary. At Discoverdrome, anybody is open to visiting the library during their free time. Each classroom would have a unique collection of books, facilitated by machines for new demands. 
 
-![Imagining spiral staircases with paper]({{ site.baseurl }}/assets/images/discoverdrome_steps.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_steps.jpg" style="max-width:300px;"/>
 <figcaption>Imagining spiral staircases with paper</figcaption>
 
 The approach to the library, upon discussion resonated with keeping things simple. A staircase acknowledges how also walks clear the head, placed near the entry door. Different forms were explored for the same.
 
 There was a lack of uniformity because of material handling when it came to constructing the staircase. A circle with arcs from the center was used for the final steps. 
 
-![]({{ site.baseurl }}/assets/images/discoverdrome_making_steps.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_making_steps.jpg" style="max-width:400px;"/>
 <figcaption>Making spiral steps - prototype</figcaption>
 
-![Building the final spiral staircase design]({{ site.baseurl }}/assets/images/discoverdrome_making_steps2.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_making_steps2.jpg" style="max-width:300px;"/>
 <figcaption>Making final model of steps</figcaption>
 
 One side of the top-floor would be the end of this staircase. The rest of it would be held together by the skeleton of the space. This was decided to be a hemispherical icosahedron.
 
-![Coincidental, yet insightful walk in the park. This icosahedron jungle gym helped gain clarity to construct the dome.]({{ site.baseurl }}/assets/images/discoverdrome_park.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_park.jpg" style="max-width:600px;"/>
 <figcaption>Coincidental, yet insightful walk in the park. This icosahedron jungle gym helped gain clarity to construct the dome.</figcaption>
 
 The decision of this form may be justified by the vastness one look of the sky has to offer. In the Hogwarts Great Hall, the real skyline is projected changing according to time. It would probably be nice for children feeling stuck/conflicted to stare into the sky and wonder, than into the wall. This fiction could be a reality, with on-button tinted glasses to make the room an enclosed space.
 
-Coincidental, yet insightful walk in the park. This icosahedron jungle gym helped gain clarity to construct the dome.
-Coincidental, yet insightful walk in the park. This icosahedron jungle gym helped gain clarity to construct the dome.
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_dome4.jpg" style="max-width:600px;"/>
 
-![]({{ site.baseurl }}/assets/images/discoverdrome_dome4.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_dome5.jpg" style="max-width:600px;"/>
 
-![]({{ site.baseurl }}/assets/images/discoverdrome_dome5.jpg)
-
-![The triangular sections were removed to be covered with OHP sheets for the window]({{ site.baseurl }}/assets/images/discoverdrome_dome6.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_dome6.jpg" style="max-width:600px;"/>
 <figcaption>The triangular sections were removed to be covered with OHP sheets for the window</figcaption>
 
 #### Constructing the geometrical dome
 
 Assuming the unwrap from Blender would yield a reliable map of the proposed structure, a 1ft:1cm scale print-out was cut and folded to build the following.
 
-![]({{ site.baseurl }}/assets/images/discoverdrome_dome7.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_dome7.jpg" style="max-width:600px;"/>
 
-![The structure after toothpicks were placed to support the triangular panels]({{ site.baseurl }}/assets/images/discoverdrome_dome8.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_dome8.jpg" style="max-width:600px;"/>
+
 <figcaption>The structure after toothpicks were placed to support the triangular panels</figcaption>
 
 The structure, seeming promising, lacked internal strength, that we felt was necessary to accommodate other objects. This was tackled by paper-taped toothpicks on every triangular edge. 
 
 It was assumed that the toothpicks would bring rigidity to the structure. This was valid, except the form was being sacrificed by seeming to be flattened from the top. Icosahedrons have each vertex resting on an imaginary sphere. This form translated to a hemispherical ovoid. 
 
-![]({{ site.baseurl }}/assets/images/discoverdrome_dome9.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_dome9.jpg" style="max-width:300px;"/>
 
-![Construction of the final dome]({{ site.baseurl }}/assets/images/discoverdrome_dome10.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_dome10.jpg" style="max-width:300px;"/>
+
 <figcaption>Construction of the final dome</figcaption>
 
 It was seen that every pentagon, constructed with isosceles triangles (10.9cm, 9.5cm, 9.5cm) could be joined together with an equilateral triangle (10.9cm,10.9cm,10.9cm) to accomplish our chosen form.
 
-![Discoverdrome - with lighting from inside]({{ site.baseurl }}/assets/images/discoverdrome_dome11.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_dome11.jpg" style="max-width:500px;"/>
+
 <figcaption>Discoverdrome - with lighting from inside</figcaption>
 
 ### Furniture
 
 The key motivation behind all furniture was modularity and easy accessibility in the space. This meant choosing forms that would make good, dynamic puzzle pieces. Maintaining the same geometric theme, tables were given hexagonal forms, with the choice of sharing with another facilitated by a middle screen to barricade space. 
 
-![]({{ site.baseurl }}/assets/images/discoverdrome_furn1.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_furn1.jpg" style="max-width:500px;"/>
 
-![Tables – earlier just hexagonal blocks, folded for accessible shelves and storage]({{ site.baseurl }}/assets/images/discoverdrome_furn2.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_furn2.jpg" style="max-width:500px;"/>
 <figcaption>Tables – earlier just hexagonal blocks, folded for accessible shelves and storage</figcaption>
 
 The seating was decided to be movable, comfortable and easily-accessible. Varied softness cushions, as well as rectangular blocks were built to suit the space.
 
-![]({{ site.baseurl }}/assets/images/discoverdrome_furn4.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_furn4.jpg" style="max-width:500px;"/>
 
-![]({{ site.baseurl }}/assets/images/discoverdrome_furn5.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_furn5.jpg" style="max-width:500px;"/>
 
-![Seating and bookshelves for the library]({{ site.baseurl }}/assets/images/discoverdrome_furn6.jpg)
+<img src="{{ site.baseurl }}/assets/images/discoverdrome_furn6.jpg" style="max-width:500px;"/>
 <figcaption>Seating and bookshelves for the library</figcaption>
 
 As objects increased in making, the idea seemed real. In a literal sense, the future began to look physical. A constant switch between speculation and making makes room for experimentation while playing with constraints, instead of worrying/planning about them.
@@ -147,7 +145,7 @@ I hope this letter reaches you in good faith. The model, where I hope you found 
 Explore. Imagine. Emerge!
 
 Signing off.<br/>
-**Simran Singh**<br/>
+Simran Singh<br/>
 Human Centered Designer (by 2020)
 
 13°06'15.4"N, 77°34'21.1"E &nbsp; 11.07.2019 &nbsp; 23:30
@@ -168,8 +166,8 @@ Similar was the case when we started to think, how the space may be made better 
 
 We understand that the future brings with itself its new complications, and we speculate that the need of then hour would be effective solutions relying on productive, sharp and quick minds that steer the way ahead. This can be met by enabling everyone to find their choice of learning style and letting them cultivate and emerge from it. Our own classrooms were not given much thought, seem outdated, or varied differently for the number of people who lack curiosity or interest. If this project were to really be implemented as the intended classroom, it would be remarkable to see the work of these spatial interventions shaping better, smarter humans of the future.
 
-**Acknowledgement.** I would use this space to thank the following people, who kept reminding me from time to time what a beautiful process making is. [Karan Dudeja](http://kdo.fyi), for helping us construct, de-and-re-construct the icosahedron to its current form. Gunika Sahni, Anamika Samanta and Sabareesh Nair, for making me take breaks just before I would exhaust myself using the paper-cutter, patiently accompanying my work and occasionally cutting some paper themselves. Blender, for making this project less laborious. I know a hundred different ways I would have deviated working with building blocks. And [Gaurav Singh]({{ site.url }}/authors/grv), for mentoring me through the entire process, and weaving my learning experience towards an ever-evolving unfolding journey. Discoverdrome is appropriately named. 
+_Acknowledgement._ I would use this space to thank the following people, who kept reminding me from time to time what a beautiful process making is. [Karan Dudeja](http://kdo.fyi), for helping us construct, de-and-re-construct the icosahedron to its current form. Gunika Sahni, Anamika Samanta and Sabareesh Nair, for making me take breaks just before I would exhaust myself using the paper-cutter, patiently accompanying my work and occasionally cutting some paper themselves. Blender, for making this project less laborious. I know a hundred different ways I would have deviated working with building blocks. And [Gaurav Singh]({{ site.url }}/authors/grv), for mentoring me through the entire process, and weaving my learning experience towards an ever-evolving unfolding journey. Discoverdrome is appropriately named. 
 
+## References
 [^1]:	Analemma is an upside down building, it is suspended from space and barely touches the Earth.
-
 [^2]:	Blender is a free and open-source 3D computer graphics software toolset.

@@ -3,18 +3,18 @@ title: Mathscapes Research
 layout: default
 ---
 
-<img src="/assets/images/process.svg" style="margin-bottom: 2em; margin-top: 2em; max-width: 500px;">
+<img class="animated fadeInDown" src="/assets/images/process.svg" style="margin-bottom: 2em; margin-top: 2em; max-width: 500px;">
 
 <center>
-<h1>Mathscapes is committed to advance in the field of algorithm design through mathematical research.</h1>
+<h1 class="animated fadeInDown">Mathscapes is committed to advance in the field of algorithm design through mathematical research.</h1>
 </center>
 
-<center>
+<!-- <center>
 <p style="max-width:650px;">Based in Bangalore, Mathscapes study and design algorithms for computational problems. We see algorithmic complexity more than just space and time; and examine how maths may be used to discover and build on other possible parameters that contribute to this complexity.</p>
-</center>
+</center> -->
 
 
-<center>
+<center class="animated fadeIn delay-1s">
 <a class="btn" href="about">Learn more</a><a class="primary-btn" href="about">Consult Mathscapes <ion-icon name="arrow-round-forward" style="color:white;"></ion-icon></a><br/>
 <p class="tertiary">Not sure how we can help you? <ion-icon name="mail"></ion-icon> <a href="mailto: hello@mathscapes.xyz">Contact us</a> to talk about how we can create a unique collaboration opportunity.</p>
 </center>
@@ -22,7 +22,7 @@ layout: default
 <hr/>
 
 ## <ion-icon name="list-box"></ion-icon> Notes
-Notes is where we publish about our current projects and activities, including insights into our design approach and practice.
+<p style="max-width: 500px;">Notes is where we publish about our current projects and activities, including insights into our design approach and practice.</p>
 
 <div class="posts">
 <table style="width=100%">

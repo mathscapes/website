@@ -5,11 +5,9 @@ permalink: /about/
 ---
 
 ## Overview
-**Mathscapes Research is committed to advance in the field of algorithm design through mathematical research.**
+Mathscapes Research is committed to advance in the field of algorithm design through mathematical research. Based in Bangalore, Mathscapes study and design algorithms for computational problems. We see algorithmic complexity more than just space and time; and examine how maths may be used to discover and build on other possible parameters that contribute to this complexity. Our projects are primarily research-based and include both — initiated by ourselves and commissioned. Beyond that, we are always keen to undertake projects that pivot on Mathematics and Computer Science. 
 
-Based in Bangalore, Mathscapes study and design algorithms for computational problems. We see algorithmic complexity more than just space and time; and examine how maths may be used to discover and build on other possible parameters that contribute to this complexity. Our projects are primarily research-based and include both — initiated by ourselves and commissioned. Beyond that, we are always keen to undertake projects that pivot on Mathematics and Computer Science. 
-
-**Mathscapes' pursuit is to revolutionise the way, world engages with technology.** Technology is constantly changing our world. It is everything that is making our work or life simpler. While that may be a good thing, we cannot anticipate all the implications. Who should be held responsible for damage caused by this advancement? _What if we could see the future? Would we change our decisions then?_
+Mathscapes' pursuit is to revolutionise the way, world engages with technology. Technology is constantly changing our world. It is everything that is making our work or life simpler. While that may be a good thing, we cannot anticipate all the implications. Who should be held responsible for damage caused by this advancement? _What if we could see the future? Would we change our decisions then?_
 
 Technology is what we believe is the consequence of life. Like life, technology may also be inevitable, or maybe both are the same? And at this point, we are probably at the ascent of the exponential curve of the supermassive technology outbreak. How much exaggerating it may sound, it seems inevitable. Will we able to coexist with it? And If so, how technology should evolve optimally? _What should we do now to change the future?_
 

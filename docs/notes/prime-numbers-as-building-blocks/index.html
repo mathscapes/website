@@ -3,11 +3,15 @@
   <head>
       <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
       <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
           <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default' async></script>
 
     
     <meta name="description" content="For as long as I remember, I always had a deep interest in prime numbers. And that’s why – this – in an attempt to document its vast literature and carry out my research on this subject.
@@ -44,7 +48,7 @@
   <p>Mathematicians have tried in vain to this day to discover some order in the sequence of prime numbers, and we have reason to believe that it is a mystery into which the mind will never penetrate”. – Euler</p>
 </blockquote>
 
-<p><strong>The fundamental theorem of arithmetic states that every positive integer has a unique prime factorization. This theorem is thus also referred as unique factorization theorem.</strong></p>
+<p>The fundamental theorem of arithmetic states that every positive integer has a unique prime factorization. This theorem is thus also referred as unique factorization theorem.</p>
 
 <p>The theorem states that the factors of a number can be expressed uniquely only with prime numbers or its factors. While a number may have composite factors, but the combination of such numbers cannot be unique.</p>
 
@@ -54,7 +58,9 @@
 
 <p>This theorem in fact, is the reason why some numbers are called Prime and also why 1 is not referred as a prime number, so to avoid non-unique combinations of factors.</p>
 
-<p><em>Prime makes the composite numbers. But, what are primes made up of? Are prime numbers the result of how we framed the rules of Maths to be? Or did it always existed?</em></p>
+<blockquote>
+  <p>Prime makes the composite numbers. But, what are primes made up of? Are prime numbers the result of how we framed the rules of Maths to be? Or did it always existed?</p>
+</blockquote>
 
 <p>Well whether or not if they are real, it has irrespectively awakened my curiosity to study it and perhaps define a formula. How can something that appears simple and yet not understood entirely?</p>
 
@@ -72,13 +78,13 @@
   <p>Any number either is prime or is measured by some prime number. – Euclid, Elements Book VII, Proposition 32</p>
 </blockquote>
 
-<p>A <strong>Prime number</strong> is a positive integer $p&gt;1$ that has no positive integer divisors other than 1 and p itself. And a method for determining whether a number is prime or not is called as <strong>Primality Test</strong>. Other integers which are not Prime numbers are referred as <strong>Composite numbers</strong>.</p>
+<p>A <em>Prime number</em> is a positive integer $p&gt;1$ that has no positive integer divisors other than 1 and p itself. And a method for determining whether a number is prime or not is called as <em>Primality Test</em>. Other integers which are not Prime numbers are referred as <em>Composite numbers</em>.</p>
 
 <script type="math/tex; mode=display">n = p_1^{n_1} . p_2^{n_2} \dots p_k^{n_k} = \prod_{i=1}^k p_i^{n_i}</script>
 
 <p>where $p_i$ are unique prime numbers, $n_i$ are the powers of prime factors and $k$ is the number of such factors.</p>
 
-<p>This form is called as <strong>Canonical representation</strong> of $n$.</p>
+<p>This form is called as <em>Canonical representation</em> of $n$.</p>
 
 <p>Such representation can be yielded by trial division. For example 32 can be expressed as –</p>
 
@@ -98,10 +104,6 @@
 
 <p>These are some of the few questions that incited me to pursue this subject and eventually start Mathscapes Research.</p>
 
-<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default" async=""></script>
-
 
   </div>
 
@@ -120,7 +122,7 @@ document.getElementById("today").innerHTML = d + "." + m + "." + y;
 </script>
         <hr/>
         <div style="margin-bottom:1em;">
-    <a href="http://localhost:4000/about" style="padding-right: 10px;">About</a>
+    <a href="/about" style="padding-right: 10px;">About</a>
     <a href="mailto: hello@mathscapes.xyz" style="padding-right: 10px;">Email</a>
     <a href="https://github.com/mathscapes" style="padding-right: 10px;">GitHub</a>
     <a href="https://twitter.com/mathscapes" style="padding-right: 10px;">Twitter</a> 

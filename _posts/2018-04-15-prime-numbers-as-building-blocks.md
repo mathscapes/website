@@ -12,7 +12,7 @@ Prime Numbers are the building blocks of the numbers and perhaps the processes i
 
 > Mathematicians have tried in vain to this day to discover some order in the sequence of prime numbers, and we have reason to believe that it is a mystery into which the mind will never penetrate". -- Euler
 
-**The fundamental theorem of arithmetic states that every positive integer has a unique prime factorization. This theorem is thus also referred as unique factorization theorem.**
+The fundamental theorem of arithmetic states that every positive integer has a unique prime factorization. This theorem is thus also referred as unique factorization theorem.
 
 The theorem states that the factors of a number can be expressed uniquely only with prime numbers or its factors. While a number may have composite factors, but the combination of such numbers cannot be unique.
 
@@ -22,7 +22,7 @@ $$ 234 = 2 \times 3^2 \times 13 $$
 
 This theorem in fact, is the reason why some numbers are called Prime and also why 1 is not referred as a prime number, so to avoid non-unique combinations of factors.
 
-_Prime makes the composite numbers. But, what are primes made up of? Are prime numbers the result of how we framed the rules of Maths to be? Or did it always existed?_
+> Prime makes the composite numbers. But, what are primes made up of? Are prime numbers the result of how we framed the rules of Maths to be? Or did it always existed?
 
 Well whether or not if they are real, it has irrespectively awakened my curiosity to study it and perhaps define a formula. How can something that appears simple and yet not understood entirely?
 
@@ -36,13 +36,13 @@ I began looking at the sequence and what a fantastic puzzle this is! The distrib
 
 > Any number either is prime or is measured by some prime number. -- Euclid, Elements Book VII, Proposition 32
 
-A **Prime number** is a positive integer $p\>1$ that has no positive integer divisors other than 1 and p itself. And a method for determining whether a number is prime or not is called as **Primality Test**. Other integers which are not Prime numbers are referred as **Composite numbers**.
+A _Prime number_ is a positive integer $p\>1$ that has no positive integer divisors other than 1 and p itself. And a method for determining whether a number is prime or not is called as _Primality Test_. Other integers which are not Prime numbers are referred as _Composite numbers_.
 
 $$ n = p_1^{n_1} . p_2^{n_2} \dots p_k^{n_k} = \prod_{i=1}^k p_i^{n_i} $$
 
 where $p_i$ are unique prime numbers, $n_i$ are the powers of prime factors and $k$ is the number of such factors.
 
-This form is called as **Canonical representation** of $n$.
+This form is called as _Canonical representation_ of $n$.
 
 Such representation can be yielded by trial division. For example 32 can be expressed as --
 
@@ -61,5 +61,4 @@ If you look at it, any number except Prime numbers can be reduced to Prime numbe
 
 These are some of the few questions that incited me to pursue this subject and eventually start Mathscapes Research.
 
-<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default' async></script>
+
