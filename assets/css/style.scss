@@ -435,7 +435,7 @@ p.tertiary{
 div.meta{
 	margin-bottom:20px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 	.logo {
 		display: block;
 		margin: 0 auto;
@@ -475,5 +475,8 @@ div.meta{
 	}
 	img{
 		max-width: 100% !important;
+	}
+	div.container{
+		margin:0 auto;
 	}
 }

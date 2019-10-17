@@ -152,7 +152,7 @@ p.tertiary { max-width: 400px; margin-top: 20px; color: #444; font-size: 12px; f
 
 div.meta { margin-bottom: 20px; }
 
-@media only screen and (max-width: 600px) { .logo { display: block; margin: 0 auto; width: 50px; }
+@media only screen and (max-width: 800px) { .logo { display: block; margin: 0 auto; width: 50px; }
   a.primary-btn, a.btn { display: block !important; width: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; font-size: 14px; text-align: center; }
   body { margin: 20px; font-size: 12px; }
   h1 { font-size: 16px; text-align: center; }
@@ -160,6 +160,7 @@ div.meta { margin-bottom: 20px; }
   p.tertiary { margin-top: 0px; }
   hr { margin-top: 2em; margin-bottom: 1em; }
   div.meta { text-align: center; }
-  img { max-width: 100% !important; } }
+  img { max-width: 100% !important; }
+  div.container { margin: 0 auto; } }
 
 /*# sourceMappingURL=style.css.map */
