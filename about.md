@@ -24,18 +24,18 @@ We foremost focus on computational efficiency, and consequently, other kinds of 
 ## Team
 We are a small team at the moment, and people from various disciplines are brought together based on the kind of project we do. Our combined expertise ranges from Mathematics, Computer Science, Human-Computer Interaction and Graphic design.
 
-**Founder.** [Gaurav Singh]({{ site.url }}/authors/grv)
+_Founder._ [Gaurav Singh]({{ site.url }}/authors/grv)
 
 ## Commission
 Mathscapes is available to undertake commissioned projects related to following categories.
 
-- **Complexity Analysis** provides theoretical estimates of the resources needed by any algorithm which solves a given computational problem.
-- **Algorithm Design** determines a set of instructions in a well-defined formal language to solve computational problems.
-- **Mathematical Research** examines the underlying abstract contexts to obtain pure mathematical results which can be utilized to develop applied mathematics.
-- **Mathematical Modelling** provides a description of a system using mathematical concepts and language.
-- **Mathematical Visualization** depicts graphical representation of a complex algorithm or mathematical model.
-- **Research Mentorship** provides one-on-one mentorship to who seek guidance for a research project that involves mathematics, computer science or human-computer interaction.
-- **Training and Workshop** facilitates learning/hackathons for large groups typically in full day formats.
+- _Complexity Analysis_ provides theoretical estimates of the resources needed by any algorithm which solves a given computational problem.
+- _Algorithm Design_ determines a set of instructions in a well-defined formal language to solve computational problems.
+- _Mathematical Research_ examines the underlying abstract contexts to obtain pure mathematical results which can be utilized to develop applied mathematics.
+- _Mathematical Modelling_ provides a description of a system using mathematical concepts and language.
+- _Mathematical Visualization_ depicts graphical representation of a complex algorithm or mathematical model.
+- _Research Mentorship_ provides one-on-one mentorship to who seek guidance for a research project that involves mathematics, computer science or human-computer interaction.
+- _Training and Workshop_ facilitates learning/hackathons for large groups typically in full day formats.
 
 Have a project for us? Get in touch — we'd be happy to hear from you. Contact us.
 

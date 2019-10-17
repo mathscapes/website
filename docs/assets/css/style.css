@@ -159,6 +159,5 @@ div.meta { margin-bottom: 20px; }
   h2, h3, h4, h5, h6 { font-size: 14px; }
   p.tertiary { margin-top: 0px; }
   hr { margin-top: 2em; margin-bottom: 1em; }
-  div.meta { text-align: center; } }
-
-/*# sourceMappingURL=style.css.map */
+  div.meta { text-align: center; }
+  img { max-width: 100% !important; } }
