@@ -6,7 +6,7 @@ layout: default
 # Mathscapes Research is committed to advance in the field of algorithm design through mathematical research.
 Based in Bangalore, Mathscapes study and design algorithms for computational problems. We see algorithmic complexity more than just space and time; and examine how maths may be used to discover and build on other possible parameters that contribute to this complexity.
 
-<img src="{{ site.url }}/assets/images/process.svg" width="80%" style="margin-bottom: 3em; margin-top: 3em;">
+<img src="/assets/images/process.svg" width="80%" style="margin-bottom: 3em; margin-top: 3em;">
 
 [Learn more about Mathscapes](about)
 

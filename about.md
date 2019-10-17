@@ -40,8 +40,8 @@ Building systems and infrastructure for robustness and rescue during large scale
 ## Process
 Our process starts by distilling the complexity into a precise formal language. We dig deep to research about the subject and try to illustrate every minute aspect that is appearing to affect the system. Often the most simple looking problems are the hardest ones. And we are living in a world with limited resources and constraints, where technology must be optimized to make the most of it. This very point brings us to maths – it sets up the foundation for us to theorize the patterns, conjectures, and design algorithms more efficiently.
 
-<img src="{{ site.url }}/assets/images/process.svg" width="80%" style="margin-bottom: 3em; margin-top: 3em;">
-<figcaption>Abstraction from our process</figcaption>
+<img src="/assets/images/process.svg" width="80%" style="margin-bottom: 3em; margin-top: 3em;">
+<figcaption>An abstract view of our process</figcaption>
 
 We foremost focus on computational efficiency, and consequently, other kinds of ability when it is put into the larger picture. The journey of a mathematical model begins by discovering and studying the raw patterns. And then developing conjectures that can potentially explain why we think something is happening the way it is happening. And finally putting all the possible hard work in proving the conjecture to support our study.
 
