@@ -6,7 +6,7 @@ tags        : [ "UserResearch" ]
 cite        : true
 ---
 
-This article does not discuss any user experience research methods but highlights a very generic process that I believe. Like all the other kinds of research, User research is quite critical to the subsequent design process and thus is as much important as the process of design itself. Or to put in another way, the essential part is to understand that it is indeed part of the design itself.
+<span class="dropcap">T</span>his article does not discuss any user experience research methods but highlights a very generic process that I believe. Like all the other kinds of research, User research is quite critical to the subsequent design process and thus is as much important as the process of design itself. Or to put in another way, the essential part is to understand that it is indeed part of the design itself.
 
 Users wouldn't always know or tell you what they need. Research is a necessary part of the process to identify the real needs of the user to create meaningful and valuable experiences for them. And I'm using the word 'need' in a very loose sense. It could mean their requirements, aspirations, or even their pain-points. An essential responsibility of a user researcher is to identify tools and methods to identify these 'needs.' While there are multiple methods and tools researchers have come up with based on the specific contexts, this post is instead going to focus on a general approach a user researcher might take.
 

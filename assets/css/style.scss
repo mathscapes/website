@@ -25,11 +25,15 @@ body {
 
 	line-height: 1.4;
 	margin: 0;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	-moz-osx-font-smoothing: grayscale !important; 
 }
 
 div.container{
 	margin: 5% auto;
-	max-width: 760px;
+	max-width: 700px;
 }
 
 h2.home a{
@@ -154,6 +158,7 @@ ul, ol {
 
 ul {
 	list-style-type: square;
+	list-style
 }
 
 ol {
@@ -377,6 +382,7 @@ ion-icon{
 	margin-bottom: -2px;
 	color: maroon; 
 }
+
 a.primary-btn, a.btn{
 	font-family: neue-haas-grotesk-text, sans-serif;
 }
@@ -386,7 +392,7 @@ a.primary-btn {
 	border-radius: 3px;
 	color: #ffffff;
 	font-size: 16px;
-	background: #800000;
+	background-color: #800000;
 	padding: 10px 20px 10px 20px;
 	display: inline-block;
 	margin-top: 1em;
@@ -394,12 +400,14 @@ a.primary-btn {
 	border: 1px solid #800000;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.15);
 }
   
 a.primary-btn:hover {
-	background: #570000;
+	background-color: #570000;
 	border: 1px solid #570000;
 	text-decoration: none;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.15);
 }
 
 a.btn {
@@ -408,7 +416,7 @@ a.btn {
 	border-radius: 3px;
 	color: #800000;
 	font-size: 16px;
-	background: white;
+	background-color: white;
 	border: 1px solid #800000;
 	padding: 10px 20px 10px 20px;
 	display: inline-block;
@@ -416,13 +424,16 @@ a.btn {
 	text-decoration: none;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.15);
 }
   
 a.btn:hover {
-	background: #570000;
+	background-color: #570000;
 	border: 1px solid #570000;
 	color: white;
 	text-decoration: none;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.15);
+
 }
 
 p.tertiary{
@@ -435,7 +446,18 @@ p.tertiary{
 div.meta{
 	margin-bottom:20px;
 }
-@media only screen and (max-width: 800px) {
+
+.dropcap {
+	color: maroon;
+	float: left;
+	font-size: 75px;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+  }
+
+@media only screen and (max-width: 740px) {
 	.logo {
 		display: block;
 		margin: 0 auto;
@@ -480,6 +502,15 @@ div.meta{
 	div.container{
 		margin:0 auto;
 	}
+	.dropcap {
+		color: maroon;
+		float: left;
+		font-size: 55px;
+		line-height: 40px;
+		padding-top: 4px;
+		padding-right: 8px;
+		padding-left: 3px;
+	}
 }
 
 blockquote span.source {
@@ -493,3 +524,4 @@ blockquote span.source {
 	color: grey;
 	text-align:right;
 }
+
