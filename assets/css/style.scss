@@ -158,7 +158,6 @@ ul, ol {
 
 ul {
 	list-style-type: square;
-	list-style
 }
 
 ol {
@@ -393,47 +392,48 @@ a.primary-btn {
 	color: #ffffff;
 	font-size: 16px;
 	background-color: #800000;
+	border: 1px solid #570000;
 	padding: 10px 20px 10px 20px;
 	display: inline-block;
 	margin-top: 1em;
 	text-decoration: none;
-	border: 1px solid #800000;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
-	box-shadow: 0 2px 2px rgba(0,0,0,0.15);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
 }
   
 a.primary-btn:hover {
 	background-color: #570000;
-	border: 1px solid #570000;
+	border: 1px solid #000000;
 	text-decoration: none;
-	box-shadow: 0 2px 2px rgba(0,0,0,0.15);
+	box-shadow: 0 0px 0px rgba(0,0,0,0.15);
+	transition: background-color 2s ease;
 }
 
 a.btn {
 	-webkit-border-radius: 3;
 	-moz-border-radius: 3;
 	border-radius: 3px;
-	color: #800000;
+	color: #333333;
 	font-size: 16px;
-	background-color: white;
-	border: 1px solid #800000;
+	background-color: #eeeeee;
+	border: 1px solid #cccccc;
 	padding: 10px 20px 10px 20px;
 	display: inline-block;
 	margin-top: 1em;
 	text-decoration: none;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
-	box-shadow: 0 2px 2px rgba(0,0,0,0.15);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
 }
   
 a.btn:hover {
-	background-color: #570000;
-	border: 1px solid #570000;
-	color: white;
+	background-color: #ffffff;
+	border: 1px solid #aaaaaa;
+	color: black;
 	text-decoration: none;
-	box-shadow: 0 2px 2px rgba(0,0,0,0.15);
-
+	box-shadow: 0 0px 0px rgba(0,0,0,0.15);
+	transition: background-color 2s ease;
 }
 
 p.tertiary{
@@ -523,5 +523,6 @@ blockquote span.source {
 	display: block;
 	color: grey;
 	text-align:right;
+
 }
 
