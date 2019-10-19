@@ -396,14 +396,12 @@ a.primary-btn {
 	text-decoration: none;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
-	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
 }
   
 a.primary-btn:hover {
 	background-color: #570000;
 	border: 1px solid #000000;
 	text-decoration: none;
-	box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 	transition: background-color 2s ease;
 }
 
@@ -418,7 +416,6 @@ a.btn {
 	text-decoration: none;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
-	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
 }
   
 a.btn:hover {
@@ -426,7 +423,6 @@ a.btn:hover {
 	border: 1px solid #aaaaaa;
 	color: black;
 	text-decoration: none;
-	box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 	transition: background-color 2s ease;
 }
 

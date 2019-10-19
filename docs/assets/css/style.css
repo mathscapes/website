@@ -140,13 +140,13 @@ ion-icon { margin-bottom: -2px; color: maroon; }
 
 a.primary-btn, a.btn { font-family: neue-haas-grotesk-text, sans-serif; }
 
-a.primary-btn { color: #ffffff; font-size: 16px; background-color: #800000; border: 1px solid #570000; padding: 10px 20px 10px 20px; display: inline-block; margin-top: 1em; text-decoration: none; margin-left: 0.5em; margin-right: 0.5em; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+a.primary-btn { color: #ffffff; font-size: 16px; background-color: #800000; border: 1px solid #570000; padding: 10px 20px 10px 20px; display: inline-block; margin-top: 1em; text-decoration: none; margin-left: 0.5em; margin-right: 0.5em; }
 
-a.primary-btn:hover { background-color: #570000; border: 1px solid #000000; text-decoration: none; box-shadow: 0 0px 0px rgba(0, 0, 0, 0.15); transition: background-color 2s ease; }
+a.primary-btn:hover { background-color: #570000; border: 1px solid #000000; text-decoration: none; transition: background-color 2s ease; }
 
-a.btn { color: #333333; font-size: 16px; background-color: #eeeeee; border: 1px solid #cccccc; padding: 10px 20px 10px 20px; display: inline-block; margin-top: 1em; text-decoration: none; margin-left: 0.5em; margin-right: 0.5em; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
+a.btn { color: #333333; font-size: 16px; background-color: #eeeeee; border: 1px solid #cccccc; padding: 10px 20px 10px 20px; display: inline-block; margin-top: 1em; text-decoration: none; margin-left: 0.5em; margin-right: 0.5em; }
 
-a.btn:hover { background-color: #ffffff; border: 1px solid #aaaaaa; color: black; text-decoration: none; box-shadow: 0 0px 0px rgba(0, 0, 0, 0.15); transition: background-color 2s ease; }
+a.btn:hover { background-color: #ffffff; border: 1px solid #aaaaaa; color: black; text-decoration: none; transition: background-color 2s ease; }
 
 p.tertiary { max-width: 400px; margin-top: 20px; color: #444; font-size: 12px; font-family: neue-haas-grotesk-text, sans-serif; }
 
