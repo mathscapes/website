@@ -549,3 +549,10 @@ blockquote span.source {
 
 }
 
+::-moz-selection { /* Code for Firefox */
+	background: yellow;
+  }
+  
+  ::selection {
+	background: yellow;
+  }
