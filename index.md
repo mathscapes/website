@@ -43,7 +43,7 @@ layout: default
   {% assign keyValue = hash | split: '#' %}
   {% capture tag_word %}{{ keyValue[2] | strip_newlines }}{% endcapture %}
     <a class="tag" href="{{ site.baseurl }}/notes/tag/{{ tag_word | downcase | replace: ' ','-' }}">
-      {{ tag_word }} {{ site.tags[tag_word].size }}
+      {{ tag_word }} <span class="count">{{ site.tags[tag_word].size }}</span>
     </a>
 {% endfor %}
 </div>

@@ -158,6 +158,10 @@ a.tag { font-family: neue-haas-grotesk-text, sans-serif; font-size: 12px; text-t
 
 a.tag:hover { background-color: maroon; border: 1px solid maroon; color: white; text-decoration: none; }
 
+a.tag .count { color: #666666; }
+
+a.tag:hover .count { color: white; }
+
 @media only screen and (max-width: 740px) { .logo { display: block; margin: 0 auto; width: 50px; }
   a.primary-btn, a.btn { display: block !important; width: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; font-size: 14px; text-align: center; }
   body { margin: 20px; font-size: 12px; }

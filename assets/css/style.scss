@@ -469,6 +469,13 @@ a.tag:hover{
 	text-decoration: none;
 }
 
+a.tag .count{
+	color: #666666;
+}
+
+a.tag:hover .count{
+	color: white;
+}
 @media only screen and (max-width: 740px) {
 	.logo {
 		display: block;
