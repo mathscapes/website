@@ -24,7 +24,7 @@ We foremost focus on computational efficiency, and consequently, other kinds of 
 ## Team
 We are a small team at the moment, and people from various disciplines are brought together based on the kind of project we do. Our combined expertise ranges from Mathematics, Computer Science, Human-Computer Interaction and Graphic design.
 
-_Founder._ [Gaurav Singh]({{ site.url }}/authors/grv)
+_Founder._ [Gaurav Singh]({{ '/authors/grv' | relative_url }})
 
 ## Commission
 Mathscapes is available to undertake commissioned projects related to following categories.
