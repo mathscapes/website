@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ## Overview
-Mathscapes Research is committed to advance in the field of algorithm design through mathematical research. Based in Bangalore, Mathscapes study and design algorithms for computational problems. We see algorithmic complexity more than just space and time; and examine how maths may be used to discover and build on other possible parameters that contribute to this complexity. Our projects are primarily research-based and include both — initiated by ourselves and commissioned. Beyond that, we are always keen to undertake projects that pivot on Mathematics and Computer Science. 
+Mathscapes is committed to advance in the field of algorithm design through mathematical research. Based in Bangalore, Mathscapes study and design algorithms for computational problems. We see algorithmic complexity more than just space and time; and examine how maths may be used to discover and build on other possible parameters that contribute to this complexity. Our projects are primarily research-based and include both — initiated by ourselves and commissioned. Beyond that, we are always keen to undertake projects that pivot on Mathematics and Computer Science. 
 
 Mathscapes' pursuit is to revolutionise the way, world engages with technology. Technology is constantly changing our world. It is everything that is making our work or life simpler. While that may be a good thing, we cannot anticipate all the implications. Who should be held responsible for damage caused by this advancement? _What if we could see the future? Would we change our decisions then?_
 
@@ -37,6 +37,4 @@ Mathscapes is available to undertake commissioned projects related to following 
 - _Research Mentorship_ provides one-on-one mentorship to who seek guidance for a research project that involves mathematics, computer science or human-computer interaction.
 - _Training and Workshop_ facilitates learning/hackathons for large groups typically in full day formats.
 
-Have a project for us? Get in touch — we'd be happy to hear from you. Contact us.
-
-hello [at] mathscapes.xyz
+Have a project for us? Get in touch — we'd be happy to hear from you. [Contact us](mailto: hello@mathscapes.xyz).
