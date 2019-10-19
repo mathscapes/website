@@ -2,7 +2,7 @@
 layout      : post
 title       : A Layman’s Introduction to How to go about User Research?
 author      : Gaurav Singh
-tags        : [ "UserResearch" ]
+tags        : [ "User Research" ]
 cite        : true
 ---
 

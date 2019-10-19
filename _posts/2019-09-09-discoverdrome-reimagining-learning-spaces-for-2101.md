@@ -2,7 +2,7 @@
 layout      : post
 title       : "Discoverdrome: Reimagining Learning Spaces for 2101"
 author      : "Simran Singh"
-tags        : ["Future", "LearningSpaces", "SpeculativeDesign", "Reflection"]
+tags        : ["Future", "Learning Spaces", "Speculative Design", "Reflection"]
 cite        : true
 ---
 

@@ -36,7 +36,7 @@ layout: default
 
 <div>
 {% for tag in site.tags %}
-  <a href="{{ site.baseurl }}/notes/tag/{{ tag | first | downcase }}">#{{ tag | first }}</a>{% unless forloop.last %} &nbsp; {% endunless %}
+  <a class="tag" href="{{ site.baseurl }}/notes/tag/{{ tag | first | downcase | replace: ' ','-' }}">{{ tag | first }}</a>{% unless forloop.last %}{% endunless %}
 {% endfor %}
 </div>
 

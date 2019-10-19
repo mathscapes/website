@@ -2,7 +2,7 @@
 layout      : post
 title       : Building Sigmoid — Open Toolkit for Teaching AI in K-12
 author      : "Simran Singh"
-tags        : ["Teaching","K-12", "AI", "Sigmoid", "AIforK12"]
+tags        : ["Teaching","K-12", "AI", "Sigmoid"]
 cite        : true
 ---
 

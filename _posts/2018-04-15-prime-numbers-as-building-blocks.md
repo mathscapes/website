@@ -2,7 +2,7 @@
 layout      : post
 title       : Prime Numbers as Building Blocks
 author      : "Gaurav Singh"
-tags        : PrimeNumbers
+tags        : "Prime Numbers"
 cite        : true
 ---
 
