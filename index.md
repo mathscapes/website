@@ -6,7 +6,7 @@ layout: default
 <img class="animated fadeInDown" src="/assets/images/process.svg" style="margin-bottom: 2em; margin-top: 2em; max-width: 500px;">
 
 <center>
-<h1 class="animated fadeInDown" style="max-width:600px;">Mathscapes is committed to advance in the field of <i>algorithm design</i> through <i>mathematical research</i>.</h1>
+<h1 class="animated fadeInDown">Mathscapes is committed to advance in the field of <i>algorithm design</i> through <i>mathematical research</i>.</h1>
 </center>
 
 <center class="animated fadeIn delay-1s">
@@ -17,7 +17,7 @@ layout: default
 <hr/>
 
 ## <ion-icon name="list-box"></ion-icon> Notes
-<p style="max-width: 500px;">Notes is where we publish about our current projects and activities, including insights into our design approach and practice.</p>
+<p>Notes is where we publish about our current projects and activities, including insights into our design approach and practice.</p>
 
 <div class="posts">
 <table style="width=100%">
